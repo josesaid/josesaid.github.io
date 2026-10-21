@@ -1,5 +1,29 @@
 [
   {
+    "name": "scaffold",
+    "description": "Spring Boot and FreeMarker generator that creates ready-to-run microservice projects from a web UI or HTTP API",
+    "url": "https://github.com/josesaid/scaffold",
+    "page": "https://josesaid.github.io/scaffold/",
+    "language": "HTML",
+    "updated": "2026-10-21"
+  },
+  {
+    "name": "taller-spring-security",
+    "description": "Spring Boot 4 / Java 25 course platform API: architecture, persistence, configuration and security roadmap",
+    "url": "https://github.com/josesaid/taller-spring-security",
+    "page": "https://josesaid.github.io/taller-spring-security/",
+    "language": "Java",
+    "updated": "2026-10-21"
+  },
+  {
+    "name": "studentsWithMCPServer",
+    "description": "Spring Boot 3.5 MCP server and Claude agent over a students REST API",
+    "url": "https://github.com/josesaid/studentsWithMCPServer",
+    "page": "https://josesaid.github.io/studentsWithMCPServer/",
+    "language": "Java",
+    "updated": "2026-10-21"
+  },
+  {
     "name": "api-spring-ai-simple-vector-store-pgvector-openai-v1",
     "description": "Spring AI semantic search over PDF documents with PGVector and OpenAISpring AI semantic search over PDF documents with PGector and OpenAI",
     "url": "https://github.com/josesaid/api-spring-ai-simple-vector-store-pgvector-openai-v1",
@@ -44,14 +68,6 @@
     "description": "Spring Boot and Spring AI chat service backed by Google Gemini",
     "url": "https://github.com/josesaid/api-spring-ai-demo-gemini-v1",
     "page": "https://josesaid.github.io/api-spring-ai-demo-gemini-v1/",
-    "language": "Java",
-    "updated": "2026-10-21"
-  },
-  {
-    "name": "taller-spring-security",
-    "description": "Spring Boot 4 / Java 25 course platform API: architecture, persistence, configuration and security roadmap",
-    "url": "https://github.com/josesaid/taller-spring-security",
-    "page": "https://josesaid.github.io/taller-spring-security/",
     "language": "Java",
     "updated": "2026-10-21"
   },
