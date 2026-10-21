@@ -1,0 +1,12 @@
+title: Said Olano
+description: Java and Spring projects - AI integration, microservices and security.
+author: Said Olano
+url: "https://josesaid.github.io"
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - .github
