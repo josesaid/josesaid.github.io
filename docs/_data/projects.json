@@ -1,5 +1,53 @@
 [
   {
+    "name": "api-spring-ai-simple-vector-store-pgvector-openai-v1",
+    "description": "Spring AI semantic search over PDF documents with PGVector and OpenAISpring AI semantic search over PDF documents with PGector and OpenAI",
+    "url": "https://github.com/josesaid/api-spring-ai-simple-vector-store-pgvector-openai-v1",
+    "page": "https://josesaid.github.io/api-spring-ai-simple-vector-store-pgvector-openai-v1/",
+    "language": "Java",
+    "updated": "2026-10-21"
+  },
+  {
+    "name": "api-spring-ai-simple-vector-store-openai-v1",
+    "description": "Spring AI semantic search over a PDF with SimpleVectorStore and OpenAISpring AI semantic search over a PDF with SimpleVectrStore and OpenAI",
+    "url": "https://github.com/josesaid/api-spring-ai-simple-vector-store-openai-v1",
+    "page": "https://josesaid.github.io/api-spring-ai-simple-vector-store-openai-v1/",
+    "language": "Java",
+    "updated": "2026-10-21"
+  },
+  {
+    "name": "api-spring-ai-semantic-search-openai-v1",
+    "description": "Spring AI semantic search demo with OpenAI embeddings",
+    "url": "https://github.com/josesaid/api-spring-ai-semantic-search-openai-v1",
+    "page": "https://josesaid.github.io/api-spring-ai-semantic-search-openai-v1/",
+    "language": "Java",
+    "updated": "2026-10-21"
+  },
+  {
+    "name": "api-spring-ai-prompt-openai-v1",
+    "description": "Spring AI prompt engineering example for requirements analysis with OpenAI",
+    "url": "https://github.com/josesaid/api-spring-ai-prompt-openai-v1",
+    "page": "https://josesaid.github.io/api-spring-ai-prompt-openai-v1/",
+    "language": "Java",
+    "updated": "2026-10-21"
+  },
+  {
+    "name": "api-spring-ai-demo-openai-v1",
+    "description": "Spring Boot and Spring AI chat service backed by OpenAISpring Boot and Spring AI chat service backed by OpeAI",
+    "url": "https://github.com/josesaid/api-spring-ai-demo-openai-v1",
+    "page": "https://josesaid.github.io/api-spring-ai-demo-openai-v1/",
+    "language": "Java",
+    "updated": "2026-10-21"
+  },
+  {
+    "name": "api-spring-ai-demo-gemini-v1",
+    "description": "Spring Boot and Spring AI chat service backed by Google Gemini",
+    "url": "https://github.com/josesaid/api-spring-ai-demo-gemini-v1",
+    "page": "https://josesaid.github.io/api-spring-ai-demo-gemini-v1/",
+    "language": "Java",
+    "updated": "2026-10-21"
+  },
+  {
     "name": "taller-spring-security",
     "description": "Spring Boot 4 / Java 25 course platform API: architecture, persistence, configuration and security roadmap",
     "url": "https://github.com/josesaid/taller-spring-security",
