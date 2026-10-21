@@ -10,7 +10,7 @@ import urllib.request
 
 USER = "josesaid"
 TOPIC = "portfolio"
-OUT = "_data/projects.json"
+OUT = "docs/_data/projects.json"
 
 
 def _headers(token):
