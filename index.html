@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Said Olano — Java & Spring Projects</title>
+  <meta name="description" content="Spring Boot and Spring AI projects by Said Olano: an AI shirt agent with tool calling, and a Spring Security workshop.">
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #1d2330;
+      --muted: #5b6474;
+      --accent: #2b6cb0;
+      --border: #e2e6ec;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #0f1420;
+        --card: #171e2d;
+        --text: #e8ecf3;
+        --muted: #9aa5b8;
+        --accent: #6fa8ea;
+        --border: #263047;
+      }
+    }
+    :root[data-theme="dark"] {
+      --bg: #0f1420;
+      --card: #171e2d;
+      --text: #e8ecf3;
+      --muted: #9aa5b8;
+      --accent: #6fa8ea;
+      --border: #263047;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 48px 16px;
+    }
+    header h1 { margin: 0 0 8px; font-size: 2rem; }
+    header p { margin: 0; color: var(--muted); }
+    .grid {
+      display: grid;
+      gap: 20px;
+      margin-top: 32px;
+      grid-template-columns: 1fr;
+    }
+    @media (min-width: 700px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .card h2 { margin: 0; font-size: 1.25rem; }
+    .card .stack {
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+    .card p { margin: 0; }
+    .card .links {
+      margin-top: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.95rem;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 40px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Said Olano</h1>
+      <p>Java and Spring projects: AI integration, microservices and security.</p>
+    </header>
+
+    <section class="grid">
+      <article class="card">
+        <h2>shirts-agent</h2>
+        <p class="stack">Java 21 · Spring Boot 3.5.6 · Spring AI 1.1.8 · OpenAI gpt-4o-mini · Maven</p>
+        <p>A Spring AI agent that recommends a t-shirt in a requested color. The model calls an annotated <code>@Tool</code> method over an in-memory catalog and returns a structured result. Invalid input returns HTTP 400 before the model is called.</p>
+        <div class="links">
+          <a href="shirts-agent/">Project page</a>
+          <a href="https://github.com/josesaid/shirts-agent">Source on GitHub</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>taller-spring-security</h2>
+        <p class="stack">Java 25 · Spring Boot 4.1.1 · Spring Data JPA · H2 · MapStruct · Maven</p>
+        <p>A course platform REST API for a Spring Security workshop. The baseline is intentionally unsecured. The roadmap adds JWT authentication, a <code>SecurityFilterChain</code>, role and ownership checks with <code>@PreAuthorize</code>, and JSON 401/403 responses.</p>
+        <div class="links">
+          <a href="taller-spring-security/">Project page</a>
+          <a href="https://github.com/josesaid/taller-spring-security">Source on GitHub</a>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <a href="https://github.com/josesaid">GitHub</a>
+    </footer>
+  </main>
+</body>
+</html>
