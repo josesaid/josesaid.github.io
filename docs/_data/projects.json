@@ -1,0 +1,18 @@
+[
+  {
+    "name": "taller-spring-security",
+    "description": "Spring Boot 4 / Java 25 course platform API: architecture, persistence, configuration and security roadmap",
+    "url": "https://github.com/josesaid/taller-spring-security",
+    "page": "https://josesaid.github.io/taller-spring-security/",
+    "language": "Java",
+    "updated": "2026-10-21"
+  },
+  {
+    "name": "shirts-agent",
+    "description": "",
+    "url": "https://github.com/josesaid/shirts-agent",
+    "page": "https://josesaid.github.io/shirts-agent/",
+    "language": "Java",
+    "updated": "2026-10-21"
+  }
+]
