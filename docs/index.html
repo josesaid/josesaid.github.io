@@ -16,6 +16,10 @@ title: Home
     header{background:linear-gradient(120deg,#0f172a,#1e3a8a 60%,#0e7490);color:#fff;padding:64px clamp(18px,5vw,48px) 56px}
     header h1{margin:0 0 8px;font-size:clamp(2rem,5vw,2.9rem)}
     header p{margin:0;max-width:640px;opacity:.92;font-size:1.1rem}
+    header{position:relative}
+    .wip{position:absolute;right:28px;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:10px;color:rgba(255,255,255,.22);font-weight:700;font-size:1.1rem;letter-spacing:.12em;text-transform:uppercase;pointer-events:none;user-select:none;text-align:right}
+    .wip svg{width:44px;height:44px;flex:none}
+    @media (max-width:640px){.wip{display:none}}
     header .btns{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap}
     header .btns a{color:#fff;border:1px solid rgba(255,255,255,.6);padding:8px 16px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.92rem}
     .wrap{max-width:1100px;margin:0 auto;padding:32px clamp(18px,4vw,36px) 60px}
@@ -46,6 +50,7 @@ title: Home
   <h1>Said Olano</h1>
   <p>Senior Software Development Manager. I build Java and Spring systems, with a focus on AI integrations, microservices and secure APIs. Filter the projects by technology below.</p>
   <div class="btns"><a href="https://github.com/josesaid">GitHub</a><a href="https://www.linkedin.com/in/josesaid">LinkedIn</a><a href="https://josesaid.github.io/#blog">GitHub Blog</a><a href="https://josesaid08.s3.us-east-1.amazonaws.com/site/index.html">Site</a><a href="https://dev.to/said_olano">Tech Blog</a></div>
+  <div class="wip" aria-hidden="true"><span>Work<br>in progress</span><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M12 40a20 20 0 0 1 40 0"/><path d="M8 40h48"/><path d="M8 40v6h48v-6"/><path d="M32 20v-4"/><path d="M20 26l-3-3"/><path d="M44 26l3-3"/><path d="M14 46h36"/></svg></div>
 </header>
 <div class="wrap">
   <h2 id="projects">Projects</h2>
