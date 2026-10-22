@@ -33,7 +33,7 @@
   },
   {
     "name": "api-spring-ai-simple-vector-store-pgvector-openai-v1",
-    "description": "Spring AI semantic search over PDF documents with PGVector and OpenAISpring AI semantic search over PDF documents with PGector and OpenAI",
+    "description": "Spring AI semantic search over PDF documents with PGVector and OpenAI",
     "url": "https://github.com/josesaid/api-spring-ai-simple-vector-store-pgvector-openai-v1",
     "page": "https://josesaid.github.io/api-spring-ai-simple-vector-store-pgvector-openai-v1/",
     "language": "Java",
@@ -41,7 +41,7 @@
   },
   {
     "name": "api-spring-ai-simple-vector-store-openai-v1",
-    "description": "Spring AI semantic search over a PDF with SimpleVectorStore and OpenAISpring AI semantic search over a PDF with SimpleVectrStore and OpenAI",
+    "description": "Spring AI semantic search over a PDF with SimpleVectorStore and OpenAI",
     "url": "https://github.com/josesaid/api-spring-ai-simple-vector-store-openai-v1",
     "page": "https://josesaid.github.io/api-spring-ai-simple-vector-store-openai-v1/",
     "language": "Java",
@@ -73,7 +73,7 @@
   },
   {
     "name": "api-spring-ai-demo-openai-v1",
-    "description": "Spring Boot and Spring AI chat service backed by OpenAISpring Boot and Spring AI chat service backed by OpeAI",
+    "description": "Spring Boot and Spring AI chat service backed by OpenAI",
     "url": "https://github.com/josesaid/api-spring-ai-demo-openai-v1",
     "page": "https://josesaid.github.io/api-spring-ai-demo-openai-v1/",
     "language": "Java",
