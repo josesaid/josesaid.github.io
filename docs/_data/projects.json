@@ -1,11 +1,19 @@
 [
   {
+    "name": "shirts-agent",
+    "description": "Spring Boot and Spring AI agent that recommends a t-shirt by color through a @Tool method over an in-memory catalog",
+    "url": "https://github.com/josesaid/shirts-agent",
+    "page": "https://josesaid.github.io/shirts-agent/",
+    "language": "Java",
+    "updated": "2026-10-22"
+  },
+  {
     "name": "scaffold",
     "description": "Spring Boot and FreeMarker generator that creates ready-to-run microservice projects from a web UI or HTTP API",
     "url": "https://github.com/josesaid/scaffold",
     "page": "https://josesaid.github.io/scaffold/",
     "language": "HTML",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "name": "taller-spring-security",
@@ -13,7 +21,7 @@
     "url": "https://github.com/josesaid/taller-spring-security",
     "page": "https://josesaid.github.io/taller-spring-security/",
     "language": "Java",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "name": "studentsWithMCPServer",
@@ -21,7 +29,7 @@
     "url": "https://github.com/josesaid/studentsWithMCPServer",
     "page": "https://josesaid.github.io/studentsWithMCPServer/",
     "language": "Java",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "name": "api-spring-ai-simple-vector-store-pgvector-openai-v1",
@@ -29,7 +37,7 @@
     "url": "https://github.com/josesaid/api-spring-ai-simple-vector-store-pgvector-openai-v1",
     "page": "https://josesaid.github.io/api-spring-ai-simple-vector-store-pgvector-openai-v1/",
     "language": "Java",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "name": "api-spring-ai-simple-vector-store-openai-v1",
@@ -37,7 +45,7 @@
     "url": "https://github.com/josesaid/api-spring-ai-simple-vector-store-openai-v1",
     "page": "https://josesaid.github.io/api-spring-ai-simple-vector-store-openai-v1/",
     "language": "Java",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "name": "api-spring-ai-semantic-search-openai-v1",
@@ -45,7 +53,7 @@
     "url": "https://github.com/josesaid/api-spring-ai-semantic-search-openai-v1",
     "page": "https://josesaid.github.io/api-spring-ai-semantic-search-openai-v1/",
     "language": "Java",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "name": "api-spring-ai-prompt-openai-v1",
@@ -53,15 +61,7 @@
     "url": "https://github.com/josesaid/api-spring-ai-prompt-openai-v1",
     "page": "https://josesaid.github.io/api-spring-ai-prompt-openai-v1/",
     "language": "Java",
-    "updated": "2026-10-21"
-  },
-  {
-    "name": "api-spring-ai-demo-openai-v1",
-    "description": "Spring Boot and Spring AI chat service backed by OpenAISpring Boot and Spring AI chat service backed by OpeAI",
-    "url": "https://github.com/josesaid/api-spring-ai-demo-openai-v1",
-    "page": "https://josesaid.github.io/api-spring-ai-demo-openai-v1/",
-    "language": "Java",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "name": "api-spring-ai-demo-gemini-v1",
@@ -69,14 +69,14 @@
     "url": "https://github.com/josesaid/api-spring-ai-demo-gemini-v1",
     "page": "https://josesaid.github.io/api-spring-ai-demo-gemini-v1/",
     "language": "Java",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
-    "name": "shirts-agent",
-    "description": "",
-    "url": "https://github.com/josesaid/shirts-agent",
-    "page": "https://josesaid.github.io/shirts-agent/",
+    "name": "api-spring-ai-demo-openai-v1",
+    "description": "Spring Boot and Spring AI chat service backed by OpenAISpring Boot and Spring AI chat service backed by OpeAI",
+    "url": "https://github.com/josesaid/api-spring-ai-demo-openai-v1",
+    "page": "https://josesaid.github.io/api-spring-ai-demo-openai-v1/",
     "language": "Java",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   }
 ]
