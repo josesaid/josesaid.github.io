@@ -54,9 +54,10 @@ title: Home
   <p class="count" id="count"></p>
   <div class="grid" id="grid">
     {% for p in site.data.projects %}
-    <article class="card" data-tags="{{ p.language }}" data-search="{{ p.name }} {{ p.description }} {{ p.language }}">
+    {% assign tags = site.data.project_tags[p.name] %}{% if tags == nil %}{% assign tags = "" | split: "," %}{% endif %}
+    <article class="card" data-tags="|{{ tags | join: '|' }}|" data-search="{{ p.name }} {{ p.description }} {{ tags | join: ' ' }}">
       <h3>{{ p.name }}</h3>
-      {% if p.language != "" %}<div class="tags"><span>{{ p.language }}</span></div>{% endif %}
+      {% if tags.size > 0 %}<div class="tags">{% for t in tags %}<span>{{ t }}</span>{% endfor %}</div>{% endif %}
       {% if p.description != "" %}<p>{{ p.description }}</p>{% endif %}
       <div class="go">
         {% if p.page != "" %}<a href="{{ p.page }}">Project page</a>{% endif %}
@@ -81,22 +82,37 @@ title: Home
 (function(){
   var cards=[].slice.call(document.querySelectorAll('.card'));
   var chipsEl=document.getElementById('chips'), q=document.getElementById('q'), countEl=document.getElementById('count');
-  var tags=[]; cards.forEach(function(c){var t=c.getAttribute('data-tags'); if(t && tags.indexOf(t)<0) tags.push(t);});
-  tags.sort(); var active=null;
+  var tags=[];
+  cards.forEach(function(c){
+    c.getAttribute('data-tags').split('|').forEach(function(t){ if(t && tags.indexOf(t)<0) tags.push(t); });
+  });
+  tags.sort(function(a,b){return a.toLowerCase()<b.toLowerCase()?-1:a.toLowerCase()>b.toLowerCase()?1:0;});
+  var active=null;
+  function setActive(t){
+    active=(t==='All')?null:t;
+    [].forEach.call(chipsEl.children,function(x){x.classList.toggle('on',x.textContent===t);});
+    render();
+  }
   ['All'].concat(tags).forEach(function(t){
-    var b=document.createElement('button'); b.className='chip'+(t==='All'?' on':''); b.textContent=t;
-    b.onclick=function(){active=(t==='All')?null:t; [].forEach.call(chipsEl.children,function(x){x.classList.toggle('on',x.textContent===t)}); render();};
+    var b=document.createElement('button');
+    b.type='button'; b.className='chip'+(t==='All'?' on':''); b.textContent=t;
+    b.setAttribute('aria-pressed', t==='All'?'true':'false');
+    b.onclick=function(){ setActive(t); };
     chipsEl.appendChild(b);
   });
   function render(){
     var s=q.value.toLowerCase(), shown=0;
     cards.forEach(function(c){
-      var ok=(!active||c.getAttribute('data-tags')===active)&&(!s||c.getAttribute('data-search').toLowerCase().indexOf(s)>-1);
-      c.style.display=ok?'':'none'; if(ok) shown++;
+      var matchTag=!active||c.getAttribute('data-tags').indexOf('|'+active+'|')>-1;
+      var matchText=!s||c.getAttribute('data-search').toLowerCase().indexOf(s)>-1;
+      var ok=matchTag&&matchText;
+      c.style.display=ok?'':'none';
+      if(ok) shown++;
     });
-    countEl.textContent=shown+' of '+cards.length+' projects';
+    countEl.textContent=shown+' of '+cards.length+' projects'+(active?' · '+active:'');
   }
-  q.oninput=render; render();
+  q.oninput=render;
+  render();
 })();
 </script>
 </body>

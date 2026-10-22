@@ -1,0 +1,11 @@
+# Categories shown as filter chips on the home page. Keys are repository names.
+scaffold: [Java, Tooling, Code generation]
+taller-spring-security: [Java, Security, Architecture]
+studentsWithMCPServer: [Java, AI, MCP, Agents]
+api-spring-ai-simple-vector-store-pgvector-openai-v1: [Java, AI, RAG, Vector DB]
+api-spring-ai-simple-vector-store-openai-v1: [Java, AI, RAG]
+api-spring-ai-semantic-search-openai-v1: [Java, AI, Embeddings]
+api-spring-ai-prompt-openai-v1: [Java, AI, Prompts]
+shirts-agent: [Java, AI, Agents, Tool calling]
+api-spring-ai-demo-gemini-v1: [Java, AI, Chat]
+api-spring-ai-demo-openai-v1: [Java, AI, Chat]
