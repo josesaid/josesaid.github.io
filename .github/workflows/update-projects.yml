@@ -1,4 +1,4 @@
-name: Update projects index
+name: Update projects and blog index
 
 on:
   schedule:
@@ -20,14 +20,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/update_projects.py
 
+      - name: Refresh Dev.to articles
+        run: python3 scripts/update_devto.py
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/_data/projects.json
+          git add docs/_data/projects.json docs/_data/devto_posts.json
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Update projects index"
+            git commit -m "Update projects and Dev.to index"
             git push
           fi
