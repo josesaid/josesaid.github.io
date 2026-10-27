@@ -1,0 +1,802 @@
+[
+  {
+    "title": "Building RAG Pipelines in Java: Ingestion, Chunking, Embeddings, Vector Stores, Evaluation, and Re-Ranking",
+    "description": "A complete Java walkthrough of a production-minded RAG pipeline, from document ingestion and chunking to vector search, retrieval evaluation, and re-ranking.",
+    "url": "https://dev.to/said_olano/building-rag-pipelines-in-java-ingestion-chunking-embeddings-vector-stores-evaluation-and-1odd",
+    "date": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "new": true
+  },
+  {
+    "title": "MuleSoft for Java Developers: Building API-Led Integrations That Last",
+    "description": "How MuleSoft's Anypoint Platform helps Java teams build maintainable integrations, with flows, Java extensions, MUnit testing, and API-led connectivity.",
+    "url": "https://dev.to/said_olano/mulesoft-for-java-developers-building-api-led-integrations-that-last-3h6o",
+    "date": "2026-10-27",
+    "first_seen": "2026-10-27",
+    "new": true
+  },
+  {
+    "title": "Building an AI Shirt Agent with Spring AI and Tool Calling",
+    "description": "How a small Spring Boot and Spring AI project uses tool calling to let an LLM recommend a shirt from a real catalog.",
+    "url": "https://dev.to/said_olano/building-an-ai-shirt-agent-with-spring-ai-and-tool-calling-2kl4",
+    "date": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "new": false
+  },
+  {
+    "title": "Building an AI Shirt Agent with Java and Spring AI: Tools, ChatClient, and REST",
+    "description": "Introduction   Large language models are good at understanding requests, but they do not...",
+    "url": "https://dev.to/said_olano/building-an-ai-shirt-agent-with-java-and-spring-ai-tools-chatclient-and-rest-43j1",
+    "date": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "new": false
+  },
+  {
+    "title": "Why Every Engineering Organization Needs a Customer Focus Team",
+    "description": "Introduction   Most engineering organizations are very good at measuring output. They track...",
+    "url": "https://dev.to/said_olano/why-every-engineering-organization-needs-a-customer-focus-team-4cpc",
+    "date": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "new": false
+  },
+  {
+    "title": "LangGraph Explained: Building Stateful, Controllable LLM Agents",
+    "description": "Introduction   Most LLM applications start as a single prompt and a single response. That...",
+    "url": "https://dev.to/said_olano/langgraph-explained-building-stateful-controllable-llm-agents-55b7",
+    "date": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "new": false
+  },
+  {
+    "title": "Infrastructure as Code on AWS: Terraform vs CloudFormation in Practice",
+    "description": "Introduction   Clicking through a cloud console works for a first experiment. It stops...",
+    "url": "https://dev.to/said_olano/infrastructure-as-code-on-aws-terraform-vs-cloudformation-in-practice-f7a",
+    "date": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "new": false
+  },
+  {
+    "title": "The Bridge Role: How Operations Liaisons Turn Plant Problems into Reliable Performance",
+    "description": "How a plant operations liaison troubleshoots recurring problems, coaches operators, and connects operations with maintenance to improve reliability.",
+    "url": "https://dev.to/said_olano/the-bridge-role-how-operations-liaisons-turn-plant-problems-into-reliable-performance-3e10",
+    "date": "2026-10-21",
+    "first_seen": "2026-10-21",
+    "new": false
+  },
+  {
+    "title": "Leading Production Lines in Highly Technical Environments: Lessons for Engineering Leaders",
+    "description": "How to own line outcomes, run a performance rhythm, advise on operating conditions, and lead engineers toward quality, cost, delivery and responsiveness, and what software and AI teams can learn from it.",
+    "url": "https://dev.to/said_olano/leading-production-lines-in-highly-technical-environments-lessons-for-engineering-leaders-kh6",
+    "date": "2026-10-20",
+    "first_seen": "2026-10-20",
+    "new": false
+  },
+  {
+    "title": "Agentic AI in Practice: Building Safe, Auditable Agents with Java and Spring Boot",
+    "description": "What agentic AI means for enterprise Java systems, and the guardrails, audit trails, and evaluation practices that make agents safe to run.",
+    "url": "https://dev.to/said_olano/agentic-ai-in-practice-building-safe-auditable-agents-with-java-and-spring-boot-46k8",
+    "date": "2026-10-20",
+    "first_seen": "2026-10-20",
+    "new": false
+  },
+  {
+    "title": "Top 8 Azure Cloud Services Every Java Developer Should Know",
+    "description": "App Service, AKS, Functions, Cosmos DB, PostgreSQL, Service Bus, Key Vault, and Application Insights, with Java examples.",
+    "url": "https://dev.to/said_olano/top-8-azure-cloud-services-every-java-developer-should-know-2k4l",
+    "date": "2026-10-16",
+    "first_seen": "2026-10-16",
+    "new": false
+  },
+  {
+    "title": "Event-Driven Architecture in Java: Designing Systems That React to What Happened",
+    "description": "Events, outbox publishing, idempotent consumers, and failure handling for event-driven systems in Java with Spring Boot and Kafka.",
+    "url": "https://dev.to/said_olano/event-driven-architecture-in-java-designing-systems-that-react-to-what-happened-5c48",
+    "date": "2026-10-16",
+    "first_seen": "2026-10-16",
+    "new": false
+  },
+  {
+    "title": "pgvector with Java in AI: Semantic Search and RAG Without a Separate Vector Database",
+    "description": "How to store, index, and query embeddings with pgvector from Java and Spring Boot, and build a grounded RAG pipeline on PostgreSQL.",
+    "url": "https://dev.to/said_olano/pgvector-with-java-in-ai-semantic-search-and-rag-without-a-separate-vector-database-3hjk",
+    "date": "2026-10-16",
+    "first_seen": "2026-10-16",
+    "new": false
+  },
+  {
+    "title": "Managing the Relationship with Service Providers: How Easy Is It?",
+    "description": "How to inventory, measure, own, and exit your service provider relationships, with practical Java examples.",
+    "url": "https://dev.to/said_olano/managing-the-relationship-with-service-providers-how-easy-is-it-1d47",
+    "date": "2026-10-16",
+    "first_seen": "2026-10-16",
+    "new": false
+  },
+  {
+    "title": "Plan, Prioritize, and Manage IT Support and Maintenance Activities",
+    "description": "How to consolidate IT support intake, set a transparent priority model, plan maintenance on a calendar, and measure what matters.",
+    "url": "https://dev.to/said_olano/plan-prioritize-and-manage-it-support-and-maintenance-activities-o3c",
+    "date": "2026-10-16",
+    "first_seen": "2026-10-16",
+    "new": false
+  },
+  {
+    "title": "DevSecOps in Practice: Securing Java and Spring Boot Delivery Pipelines",
+    "description": "How to automate secret detection, dependency scanning, container hardening, policy as code, and compliance evidence in a Java and Spring Boot delivery pipeline.",
+    "url": "https://dev.to/said_olano/devsecops-in-practice-securing-java-and-spring-boot-delivery-pipelines-2afn",
+    "date": "2026-10-14",
+    "first_seen": "2026-10-14",
+    "new": false
+  },
+  {
+    "title": "Security & Compliance Principles for Java and Spring Boot Services",
+    "description": "Practical security and compliance engineering principles for Java and Spring Boot services: least privilege, defense in depth, encryption, audit logging, and separation of duties.",
+    "url": "https://dev.to/said_olano/security-compliance-principles-for-java-and-spring-boot-services-4nni",
+    "date": "2026-10-14",
+    "first_seen": "2026-10-14",
+    "new": false
+  },
+  {
+    "title": "🧭 Domain-Driven Design in Practice: Bounded Contexts, Aggregates, and Java Records",
+    "description": "A practical guide to Domain-Driven Design for Java and Spring Boot teams: ubiquitous language, bounded contexts, aggregates, domain events, and anticorruption layers.",
+    "url": "https://dev.to/said_olano/domain-driven-design-in-practice-bounded-contexts-aggregates-and-java-records-43aj",
+    "date": "2026-10-13",
+    "first_seen": "2026-10-13",
+    "new": false
+  },
+  {
+    "title": "🏭 Manufacturing Industrialization in High-Complexity Environments: From Prototype to Controlled Volume",
+    "description": "How to industrialize products with high configuration, process, and regulatory complexity, with Java examples for process capability (Cpk) and configuration validation.",
+    "url": "https://dev.to/said_olano/manufacturing-industrialization-in-high-complexity-environments-from-prototype-to-controlled-4g5n",
+    "date": "2026-10-13",
+    "first_seen": "2026-10-13",
+    "new": false
+  },
+  {
+    "title": "🏭 Management Skills in Manufacturing: Leading People, Metrics, and Problem Solving on the Shop Floor",
+    "description": "The management skills that matter on the shop floor, with Java examples for OEE breakdown, downtime Pareto analysis, and shift KPI reporting in Spring Boot.",
+    "url": "https://dev.to/said_olano/management-skills-in-manufacturing-leading-people-metrics-and-problem-solving-on-the-shop-floor-1egd",
+    "date": "2026-10-13",
+    "first_seen": "2026-10-13",
+    "new": false
+  },
+  {
+    "title": "🚀 New Product Introduction for Software Teams: From Idea to Launch with Java",
+    "description": "Apply the New Product Introduction (NPI) discipline to software: staged gates, feature flags, measurable pilots, and automated rollback in Spring Boot.",
+    "url": "https://dev.to/said_olano/new-product-introduction-for-software-teams-from-idea-to-launch-with-java-4g37",
+    "date": "2026-10-13",
+    "first_seen": "2026-10-13",
+    "new": false
+  },
+  {
+    "title": "Reading Technical Specifications, BOMs, and Design Documentation for Software Engineers",
+    "description": "Before a product can be built, someone has to understand what it is made of. The information lives in...",
+    "url": "https://dev.to/said_olano/reading-technical-specifications-boms-and-design-documentation-for-software-engineers-1i7i",
+    "date": "2026-10-10",
+    "first_seen": "2026-10-10",
+    "new": false
+  },
+  {
+    "title": "Good Practices in Escalations and How to Manage Them",
+    "description": "An escalation is not a failure. It is a mechanism that moves a problem to someone with more...",
+    "url": "https://dev.to/said_olano/good-practices-in-escalations-and-how-to-manage-them-2132",
+    "date": "2026-10-10",
+    "first_seen": "2026-10-10",
+    "new": false
+  },
+  {
+    "title": "5 Whys: How to Find the Root Cause Instead of the First Explanation",
+    "description": "When a production line stops, a customer reports a defect, or a service goes down, the first...",
+    "url": "https://dev.to/said_olano/5-whys-how-to-find-the-root-cause-instead-of-the-first-explanation-2oo8",
+    "date": "2026-10-10",
+    "first_seen": "2026-10-10",
+    "new": false
+  },
+  {
+    "title": "Takt Time, Cycle Time, UPH, OEE, OLE, RTY and Productivity: Indicators That Drive Real Line Performance",
+    "description": "Every production line produces numbers, and most of them are used too late. A supervisor learns that...",
+    "url": "https://dev.to/said_olano/takt-time-cycle-time-uph-oee-ole-rty-and-productivity-indicators-that-drive-real-line-ibb",
+    "date": "2026-10-10",
+    "first_seen": "2026-10-10",
+    "new": false
+  },
+  {
+    "title": "Surface Mount Technology (SMT): Reflow Profiles, Process Windows, and Line Data",
+    "description": "Surface Mount Technology (SMT) is the method that puts most of the electronics in the world onto...",
+    "url": "https://dev.to/said_olano/surface-mount-technology-smt-reflow-profiles-process-windows-and-line-data-4c1n",
+    "date": "2026-10-10",
+    "first_seen": "2026-10-10",
+    "new": false
+  },
+  {
+    "title": "In-Circuit Test (ICT): Limits, Guard Bands, and Test Code for Software Engineers",
+    "description": "What in-circuit test checks on assembled boards, how limits and guard bands drive false fails and escapes, and a Java model for pass/fail decisions.",
+    "url": "https://dev.to/said_olano/in-circuit-test-ict-limits-guard-bands-and-test-code-for-software-engineers-98d",
+    "date": "2026-10-09",
+    "first_seen": "2026-10-09",
+    "new": false
+  },
+  {
+    "title": "Printed Circuit Board Assembly (PCBA): Yield, Traceability, and Test for Software Engineers",
+    "description": "A practical introduction to PCBA stages and defects, with a Java model for first-pass and rolled throughput yield.",
+    "url": "https://dev.to/said_olano/printed-circuit-board-assembly-pcba-yield-traceability-and-test-for-software-engineers-44d",
+    "date": "2026-10-09",
+    "first_seen": "2026-10-09",
+    "new": false
+  },
+  {
+    "title": "Profit & Loss (P&L) for Engineering Leaders",
+    "description": "How to read a P&L, map engineering spend onto it, compute product-level unit economics in Java, and present technical investments in financial terms.",
+    "url": "https://dev.to/said_olano/profit-loss-pl-for-engineering-leaders-1jh3",
+    "date": "2026-10-09",
+    "first_seen": "2026-10-09",
+    "new": false
+  },
+  {
+    "title": "Managing Cross-Functional Teams: A Practical Guide for Engineering Leaders",
+    "description": "How to define ownership, decision rights, dependencies, and shared metrics so product, design, engineering, QA, security, and operations deliver as one team.",
+    "url": "https://dev.to/said_olano/managing-cross-functional-teams-a-practical-guide-for-engineering-leaders-3khd",
+    "date": "2026-10-09",
+    "first_seen": "2026-10-09",
+    "new": false
+  },
+  {
+    "title": "Kotlin Coroutines vs Java Virtual Threads: A Comprehensive Comparison for Modern Backend Development",
+    "description": "Compare Kotlin coroutines and Java virtual threads—two approaches to scalable JVM concurrency. Learn architectures, performance characteristics, and when to use each technology.",
+    "url": "https://dev.to/said_olano/kotlin-coroutines-vs-java-virtual-threads-a-comprehensive-comparison-for-modern-backend-development-1nc0",
+    "date": "2026-10-09",
+    "first_seen": "2026-10-09",
+    "new": false
+  },
+  {
+    "title": "Pinecone with Java in AI: Building Semantic Search and RAG Pipelines",
+    "description": "How to use Pinecone with Java and Spring Boot to build semantic search and RAG pipelines.",
+    "url": "https://dev.to/said_olano/pinecone-with-java-in-ai-building-semantic-search-and-rag-pipelines-3jdg",
+    "date": "2026-10-08",
+    "first_seen": "2026-10-08",
+    "new": false
+  },
+  {
+    "title": "Eclipse IDE: Comprehensive Guide to Open Source Java Development",
+    "description": "Eclipse IDE: Comprehensive Guide to Open Source Java Development   Eclipse IDE stands as one...",
+    "url": "https://dev.to/said_olano/eclipse-ide-comprehensive-guide-to-open-source-java-development-4a7n",
+    "date": "2026-10-08",
+    "first_seen": "2026-10-08",
+    "new": false
+  },
+  {
+    "title": "Event Driven Architectures in Java: Building Scalable, Decoupled Systems",
+    "description": "Comprehensive guide to event-driven architecture in Java, covering Spring ApplicationEvents, Kafka integration, Event Sourcing, CQRS, and production best practices.",
+    "url": "https://dev.to/said_olano/event-driven-architectures-in-java-building-scalable-decoupled-systems-5h82",
+    "date": "2026-10-06",
+    "first_seen": "2026-10-06",
+    "new": false
+  },
+  {
+    "title": "PHP-FPM: The Complete Guide to High-Performance PHP Applications",
+    "description": "Master PHP-FPM architecture, configuration, and best practices for building scalable, production-grade PHP applications with optimal performance and resource management.",
+    "url": "https://dev.to/said_olano/php-fpm-the-complete-guide-to-high-performance-php-applications-35ga",
+    "date": "2026-10-03",
+    "first_seen": "2026-10-03",
+    "new": false
+  },
+  {
+    "title": "JHipster and Java Implementation - Building Enterprise Applications",
+    "description": "Complete guide to JHipster framework for rapid Java development with Spring Boot, Angular/React, and Docker.",
+    "url": "https://dev.to/said_olano/jhipster-and-java-implementation-building-enterprise-applications-2hkl",
+    "date": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "new": false
+  },
+  {
+    "title": "Apache Solr with Java – Building High-Performance Search Solutions",
+    "description": "Complete guide to integrating Apache Solr with Java applications, covering installation, configuration, indexing, querying, and real-world best practices for production environments.",
+    "url": "https://dev.to/said_olano/apache-solr-with-java-building-high-performance-search-solutions-3858",
+    "date": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "new": false
+  },
+  {
+    "title": "Search Relevance & ML Ranking: Getting Search Right",
+    "description": "Master search relevance using Learning-to-Rank (LTR). Learn feature engineering, ML models, two-stage ranking, and production deployment.",
+    "url": "https://dev.to/said_olano/search-relevance-ml-ranking-getting-search-right-2djh",
+    "date": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "new": false
+  },
+  {
+    "title": "Elasticsearch vs OpenSearch: Enterprise Search Comparison 2026",
+    "description": "Compare Elasticsearch and OpenSearch: architecture, cost, licensing, performance, and production recommendations for enterprise search.",
+    "url": "https://dev.to/said_olano/elasticsearch-vs-opensearch-enterprise-search-comparison-2026-2l33",
+    "date": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "new": false
+  },
+  {
+    "title": "Python for Java Developers: A Complete Bridge Guide",
+    "description": "Master Python using your Java knowledge. Mental model shifts, syntax equivalents, common pitfalls, and when to use each language.",
+    "url": "https://dev.to/said_olano/python-for-java-developers-a-complete-bridge-guide-3bk5",
+    "date": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "new": false
+  },
+  {
+    "title": "Building AI-Powered Search with RAG & LangChain in Java",
+    "description": "Master RAG with LangChain4j. Build ChatGPT-quality search grounded in your actual data using embeddings and LLMs.",
+    "url": "https://dev.to/said_olano/building-ai-powered-search-with-rag-langchain-in-java-22p8",
+    "date": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "new": false
+  },
+  {
+    "title": "Vector Search & Embeddings in Java: Building Semantic Search Engines",
+    "description": "Master vector embeddings and semantic search in Java. Build RAG-powered chatbots, e-commerce recommendations, and AI search with OpenAI embeddings, Pinecone, or PostgreSQL pgvector.",
+    "url": "https://dev.to/said_olano/vector-search-embeddings-in-java-building-semantic-search-engines-279c",
+    "date": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "new": false
+  },
+  {
+    "title": "Trivy in Java Development: Complete Guide to Container Security Scanning",
+    "description": "Master container security scanning with Trivy for Java applications. Complete guide covering installation, Maven/Gradle integration, CI/CD pipelines, and real-world best practices.",
+    "url": "https://dev.to/said_olano/trivy-in-java-development-complete-guide-to-container-security-scanning-182m",
+    "date": "2026-10-02",
+    "first_seen": "2026-10-02",
+    "new": false
+  },
+  {
+    "title": "LangSmith: Essential Observability for LLM Applications in 2026",
+    "description": "Complete guide to LangSmith—the purpose-built observability platform for debugging, evaluating, and monitoring LLM applications in production.",
+    "url": "https://dev.to/said_olano/langsmith-essential-observability-for-llm-applications-in-2026-2cj",
+    "date": "2026-10-01",
+    "first_seen": "2026-10-01",
+    "new": false
+  },
+  {
+    "title": "LangSmith: The Essential Observability Platform for LLM Applications",
+    "description": "Complete guide to LangSmith—the purpose-built observability platform for debugging, evaluating, and monitoring LLM applications in production.",
+    "url": "https://dev.to/said_olano/langsmith-the-essential-observability-platform-for-llm-applications-1eka",
+    "date": "2026-10-01",
+    "first_seen": "2026-10-01",
+    "new": false
+  },
+  {
+    "title": "LangChain4j: Bringing Language Model Orchestration to Java Developers",
+    "description": "Complete guide to LangChain4j - the Java framework for building LLM-powered applications with RAG, tools, agents, and Spring Boot integration.",
+    "url": "https://dev.to/said_olano/langchain4j-bringing-language-model-orchestration-to-java-developers-3578",
+    "date": "2026-10-01",
+    "first_seen": "2026-10-01",
+    "new": false
+  },
+  {
+    "title": "Develop and Maintain Process Documentation: The Silent Multiplier of Team Productivity",
+    "description": "Complete guide to building and maintaining process documentation - runbooks, procedures, deployment guides, and the business impact of documented processes.",
+    "url": "https://dev.to/said_olano/develop-and-maintain-process-documentation-the-silent-multiplier-of-team-productivity-2ndl",
+    "date": "2026-10-01",
+    "first_seen": "2026-10-01",
+    "new": false
+  },
+  {
+    "title": "Distributed Tracing: Making Microservices Observable",
+    "description": "Complete guide to distributed tracing in microservices - understand request flows, implement OpenTelemetry with Java/Spring Boot, use Jaeger, and debug production systems with confidence.",
+    "url": "https://dev.to/said_olano/distributed-tracing-making-microservices-observable-4iap",
+    "date": "2026-09-29",
+    "first_seen": "2026-09-29",
+    "new": false
+  },
+  {
+    "title": "Platform Engineering: Building the Foundation for Scalable Development",
+    "description": "Complete guide to Platform Engineering - the discipline of building internal developer platforms that accelerate development and improve developer experience.",
+    "url": "https://dev.to/said_olano/platform-engineering-building-the-foundation-for-scalable-development-264m",
+    "date": "2026-09-29",
+    "first_seen": "2026-09-29",
+    "new": false
+  },
+  {
+    "title": "Saga Pattern: Managing Distributed Transactions in Microservices",
+    "description": "Saga Pattern: Distributed Transactions in Microservices   When a customer places an order in...",
+    "url": "https://dev.to/said_olano/saga-pattern-managing-distributed-transactions-in-microservices-2nk6",
+    "date": "2026-09-29",
+    "first_seen": "2026-09-29",
+    "new": false
+  },
+  {
+    "title": "CQRS Architecture: Optimizing Database Performance with Read/Write Separation",
+    "description": "CQRS: Separating Reads from Writes for Performance &amp; Scalability   CQRS solves the...",
+    "url": "https://dev.to/said_olano/cqrs-architecture-optimizing-database-performance-with-readwrite-separation-39a4",
+    "date": "2026-09-29",
+    "first_seen": "2026-09-29",
+    "new": false
+  },
+  {
+    "title": "Event-Driven Architecture: Building Responsive Distributed Systems",
+    "description": "Event-Driven Architecture: Building Responsive, Scalable Systems           ...",
+    "url": "https://dev.to/said_olano/event-driven-architecture-building-responsive-distributed-systems-kb6",
+    "date": "2026-09-29",
+    "first_seen": "2026-09-29",
+    "new": false
+  },
+  {
+    "title": "Circuit Breaker Pattern: Preventing Cascading Failures",
+    "description": "Circuit Breaker Pattern: Prevent Cascading Failures in Distributed Systems           ...",
+    "url": "https://dev.to/said_olano/circuit-breaker-pattern-preventing-cascading-failures-bca",
+    "date": "2026-09-29",
+    "first_seen": "2026-09-29",
+    "new": false
+  },
+  {
+    "title": "API Gateway: The Essential Microservices Component for Production Systems",
+    "description": "API Gateway: The Critical Component You Cannot Ignore in Microservices Architecture        ...",
+    "url": "https://dev.to/said_olano/api-gateway-the-essential-microservices-component-for-production-systems-emn",
+    "date": "2026-09-29",
+    "first_seen": "2026-09-29",
+    "new": false
+  },
+  {
+    "title": "API Gateway: The Critical Component You Cannot Ignore in Microservices Architecture",
+    "description": "API Gateway: The Critical Component You Cannot Ignore in Microservices Architecture        ...",
+    "url": "https://dev.to/said_olano/api-gateway-the-critical-component-you-cannot-ignore-in-microservices-architecture-320d",
+    "date": "2026-09-29",
+    "first_seen": "2026-09-29",
+    "new": false
+  },
+  {
+    "title": "Everything as Code: The Infrastructure Revolution Transforming Modern Engineering",
+    "description": "Comprehensive guide to Everything as Code philosophy. Covers Infrastructure as Code, Configuration as Code, CI/CD as Code, Policy as Code. Real-world examples with Terraform, Kubernetes, GitHub Actions, OPA.",
+    "url": "https://dev.to/said_olano/everything-as-code-the-infrastructure-revolution-transforming-modern-engineering-24jd",
+    "date": "2026-09-29",
+    "first_seen": "2026-09-29",
+    "new": false
+  },
+  {
+    "title": "Scrum: Agile Framework Implementation - A Comprehensive Guide",
+    "description": "A comprehensive guide to implementing Scrum agile framework in your team",
+    "url": "https://dev.to/said_olano/scrum-agile-framework-implementation-a-comprehensive-guide-4pg3",
+    "date": "2026-09-27",
+    "first_seen": "2026-09-27",
+    "new": false
+  },
+  {
+    "title": "DigitalOcean as a Cloud Provider: A Complete Analysis of Advantages and Disadvantages",
+    "description": "Comprehensive comparison of DigitalOcean vs AWS, Azure, GCP. Analyze pricing, simplicity, scaling, features, compliance. Determine when to choose DigitalOcean and when to migrate.",
+    "url": "https://dev.to/said_olano/digitalocean-as-a-cloud-provider-a-complete-analysis-of-advantages-and-disadvantages-2pj",
+    "date": "2026-09-26",
+    "first_seen": "2026-09-26",
+    "new": false
+  },
+  {
+    "title": "Linux Swap Memory: A Complete Guide to Virtual Memory Management",
+    "description": "Master Linux Swap configuration, monitoring, and best practices. Learn when to use swap, how it impacts performance, and advanced tuning techniques for production systems.",
+    "url": "https://dev.to/said_olano/linux-swap-memory-a-complete-guide-to-virtual-memory-management-49bj",
+    "date": "2026-09-26",
+    "first_seen": "2026-09-26",
+    "new": false
+  },
+  {
+    "title": "GWT: Google Web Toolkit for Rich Interfaces — Building Sophisticated Web Applications in Java",
+    "description": "GWT: Google Web Toolkit for Rich Interfaces — Building Sophisticated Web Applications in...",
+    "url": "https://dev.to/said_olano/gwt-google-web-toolkit-for-rich-interfaces-building-sophisticated-web-applications-in-java-gb6",
+    "date": "2026-09-23",
+    "first_seen": "2026-09-23",
+    "new": false
+  },
+  {
+    "title": "Spring Boot 3.0 Native Images with GraalVM: Revolutionizing Java Performance",
+    "description": "Complete guide to building native images with Spring Boot 3.0 and GraalVM for production deployments with performance benchmarks.",
+    "url": "https://dev.to/said_olano/spring-boot-30-native-images-with-graalvm-revolutionizing-java-performance-2h55",
+    "date": "2026-09-19",
+    "first_seen": "2026-09-19",
+    "new": false
+  },
+  {
+    "title": "Digital Ocean in the Usage of Microservices: A Complete Guide",
+    "description": "Comprehensive guide to deploying and managing microservices on Digital Ocean using DOKS, App Platform, and managed databases with Spring Boot examples.",
+    "url": "https://dev.to/said_olano/digital-ocean-in-the-usage-of-microservices-a-complete-guide-a69",
+    "date": "2026-09-19",
+    "first_seen": "2026-09-19",
+    "new": false
+  },
+  {
+    "title": "Own End-to-End Delivery, Quality, and Team Health: The Senior Engineering Manager's Blueprint",
+    "description": "Master accountability as a Senior Engineering Manager by owning delivery, quality, and team health simultaneously with proven frameworks and practices.",
+    "url": "https://dev.to/said_olano/own-end-to-end-delivery-quality-and-team-health-the-senior-engineering-managers-blueprint-12ke",
+    "date": "2026-09-18",
+    "first_seen": "2026-09-18",
+    "new": false
+  },
+  {
+    "title": "Support for Contract Negotiations and Price Definition: A Strategic Framework",
+    "description": "Comprehensive guide to contract negotiation strategies, pricing models, and vendor management covering leverage assessment, requirements definition, negotiation tactics, and building sustainable partnerships.",
+    "url": "https://dev.to/said_olano/support-for-contract-negotiations-and-price-definition-a-strategic-framework-4hgg",
+    "date": "2026-09-18",
+    "first_seen": "2026-09-18",
+    "new": false
+  },
+  {
+    "title": "Electronics Manufacturing Industry: From Design to Production Scale",
+    "description": "Comprehensive guide to modern electronics manufacturing covering DFM, supply chain optimization, production processes, quality assurance, and Industry 4.0 transformation.",
+    "url": "https://dev.to/said_olano/electronics-manufacturing-industry-from-design-to-production-scale-3p4o",
+    "date": "2026-09-18",
+    "first_seen": "2026-09-18",
+    "new": false
+  },
+  {
+    "title": "PCBA and Sub-Assembly Manufacturing: A Complete Guide to Design, Development, and Deployment",
+    "description": "Comprehensive guide to PCBA manufacturing covering design optimization, supply chain management, production processes, quality assurance, and Java implementation patterns for manufacturing execution systems.",
+    "url": "https://dev.to/said_olano/pcba-and-sub-assembly-manufacturing-a-complete-guide-to-design-development-and-deployment-1h97",
+    "date": "2026-09-18",
+    "first_seen": "2026-09-18",
+    "new": false
+  },
+  {
+    "title": "P&L Administration & Quotations: Building Enterprise-Grade Financial Management Systems",
+    "description": "Master P&L administration and intelligent quotation management systems. Learn real-time revenue recognition, approval workflows, and compliance strategies for enterprise financial operations.",
+    "url": "https://dev.to/said_olano/pl-administration-quotations-building-enterprise-grade-financial-management-systems-3h3k",
+    "date": "2026-09-18",
+    "first_seen": "2026-09-18",
+    "new": false
+  },
+  {
+    "title": "Protocol Buffers: The Efficient Serialization That Transforms Distributed Architectures",
+    "description": "Master Protocol Buffers to reduce latency, bandwidth and complexity in microservices. From fundamentals to production patterns with gRPC integration.",
+    "url": "https://dev.to/said_olano/protocol-buffers-the-efficient-serialization-that-transforms-distributed-architectures-491n",
+    "date": "2026-09-18",
+    "first_seen": "2026-09-18",
+    "new": false
+  },
+  {
+    "title": "Distributed Tracing with OpenTelemetry: Observability for Modern Microservices",
+    "description": "Master distributed tracing with OpenTelemetry. Learn practical implementation patterns for microservices observability using Java and Spring Boot.",
+    "url": "https://dev.to/said_olano/distributed-tracing-with-opentelemetry-observability-for-modern-microservices-31hd",
+    "date": "2026-09-15",
+    "first_seen": "2026-09-15",
+    "new": false
+  },
+  {
+    "title": "Virtual Threads in Java 21: Revolutionizing Concurrency and Scalability",
+    "description": "Learn how Virtual Threads revolutionize Java concurrency with lightweight, scalable threading for modern cloud applications.",
+    "url": "https://dev.to/said_olano/virtual-threads-in-java-21-revolutionizing-concurrency-and-scalability-3h5p",
+    "date": "2026-09-15",
+    "first_seen": "2026-09-15",
+    "new": false
+  },
+  {
+    "title": "Building Production-Ready AI Agents with Spring AI and LangChain: A Practical Guide",
+    "description": "Learn how to architect and implement production-grade AI agents using Spring Boot, Spring AI, and LangChain. Covers tool integration, memory management, resilience patterns, and deployment strategies.",
+    "url": "https://dev.to/said_olano/building-production-ready-ai-agents-with-spring-ai-and-langchain-a-practical-guide-5927",
+    "date": "2026-09-14",
+    "first_seen": "2026-09-14",
+    "new": false
+  },
+  {
+    "title": "Invest in People as a Software Engineering Lead: Building High-Performing Teams Through Human-Centric Leadership",
+    "description": "The most valuable asset in software engineering isn't your codebase—it's your people. Learn how to invest strategically in your team's growth, development, and retention.",
+    "url": "https://dev.to/said_olano/invest-in-people-as-a-software-engineering-lead-building-high-performing-teams-through-894",
+    "date": "2026-09-14",
+    "first_seen": "2026-09-14",
+    "new": false
+  },
+  {
+    "title": "Software Engineering Best Practices as a Team Lead and Communicator",
+    "description": "Master the art of leading technical teams with effective communication, mentorship, and strategic engineering practices that drive innovation and team growth.",
+    "url": "https://dev.to/said_olano/software-engineering-best-practices-as-a-team-lead-and-communicator-13ih",
+    "date": "2026-09-14",
+    "first_seen": "2026-09-14",
+    "new": false
+  },
+  {
+    "title": "Java & Elasticsearch: Search Engines",
+    "description": "Java &amp; Elasticsearch: Search Engines   Elasticsearch has become the go-to search engine...",
+    "url": "https://dev.to/said_olano/java-elasticsearch-search-engines-3okm",
+    "date": "2026-09-11",
+    "first_seen": "2026-09-11",
+    "new": false
+  },
+  {
+    "title": "Mastering Spring WebFlux: Building Reactive Web Applications in Java",
+    "description": "Master Spring WebFlux: Building production-grade reactive web applications in Java with non-blocking I/O, backpressure handling, and cloud-native patterns.",
+    "url": "https://dev.to/said_olano/mastering-spring-webflux-building-reactive-web-applications-in-java-37p",
+    "date": "2026-09-10",
+    "first_seen": "2026-09-10",
+    "new": false
+  },
+  {
+    "title": "Spring AI + OpenAI: Complete Integration Guide for Java (2026)",
+    "description": "Learn how to integrate OpenAI with Spring Boot using Spring AI. Build chatbots, REST APIs and intelligent applications with Java, from configuration to production.",
+    "url": "https://dev.to/said_olano/spring-ai-openai-complete-integration-guide-for-java-2026-12d6",
+    "date": "2026-09-10",
+    "first_seen": "2026-09-10",
+    "new": false
+  },
+  {
+    "title": "Deploying Microservices Architectures with AWS and Java: A Complete Guide",
+    "description": "Learn how to design, build, and deploy scalable microservices on AWS using Java and Spring Boot with containerization, load balancing, and monitoring.",
+    "url": "https://dev.to/said_olano/deploying-microservices-architectures-with-aws-and-java-a-complete-guide-3dae",
+    "date": "2026-09-09",
+    "first_seen": "2026-09-09",
+    "new": false
+  },
+  {
+    "title": "Building Python-to-Spring Boot Microservices: A Complete Integration Guide",
+    "description": "Complete guide: Integrate Python with Spring Boot in microservices architecture. Real-world code examples, REST patterns, and production considerations.",
+    "url": "https://dev.to/said_olano/building-python-to-spring-boot-microservices-a-complete-integration-guide-2422",
+    "date": "2026-09-08",
+    "first_seen": "2026-09-08",
+    "new": false
+  },
+  {
+    "title": "Integración de Microservicios: Python + Spring Boot (Guía Completa 2026)",
+    "description": "Guía completa: integra Python con Spring Boot en arquitectura de microservicios. Ejemplos de código, patrones REST y consideraciones de producción.",
+    "url": "https://dev.to/said_olano/integracion-de-microservicios-python-spring-boot-guia-completa-2026-2j5p",
+    "date": "2026-09-08",
+    "first_seen": "2026-09-08",
+    "new": false
+  },
+  {
+    "title": "Crear un Microservicio en Python que Llama a Otro en Spring Boot",
+    "description": "Guía completa: integra Python con Spring Boot en arquitectura de microservicios. Ejemplos de código, patrones REST y consideraciones de producción.",
+    "url": "https://dev.to/said_olano/crear-un-microservicio-en-python-que-llama-a-otro-en-spring-boot-54oa",
+    "date": "2026-09-08",
+    "first_seen": "2026-09-08",
+    "new": false
+  },
+  {
+    "title": "Retrieval-Augmented Generation (RAG): The Complete Guide to Smarter AI Responses",
+    "description": "Complete guide to RAG: how it works, key components, benefits, use cases, and practical implementation strategies for enterprise AI systems",
+    "url": "https://dev.to/said_olano/retrieval-augmented-generation-rag-the-complete-guide-to-smarter-ai-responses-2d10",
+    "date": "2026-09-08",
+    "first_seen": "2026-09-08",
+    "new": false
+  },
+  {
+    "title": "Claude AI: Building with the Latest Models (2026-09-07 23:50)",
+    "description": "Claude AI: Building with the Latest Models   Anthropic's Claude family of models has become...",
+    "url": "https://dev.to/said_olano/claude-ai-building-with-the-latest-models-2026-09-07-2350-409n",
+    "date": "2026-09-07",
+    "first_seen": "2026-09-07",
+    "new": false
+  },
+  {
+    "title": "Reverse Proxy: The Architecture Pattern Every Backend Engineer Should Master",
+    "description": "Complete guide to reverse proxies: load balancing, SSL termination, caching, and production implementations with Nginx, HAProxy, Envoy, and Java",
+    "url": "https://dev.to/said_olano/reverse-proxy-the-architecture-pattern-every-backend-engineer-should-master-44j0",
+    "date": "2026-09-07",
+    "first_seen": "2026-09-07",
+    "new": false
+  },
+  {
+    "title": "Mastering the ELK Stack: A Practical Guide to Elasticsearch, Logstash, and Kibana (2026-09-07 21:20)",
+    "description": "Mastering the ELK Stack: A Practical Guide to Elasticsearch, Logstash, and Kibana   Modern...",
+    "url": "https://dev.to/said_olano/mastering-the-elk-stack-a-practical-guide-to-elasticsearch-logstash-and-kibana-2026-09-07-2120-eci",
+    "date": "2026-09-07",
+    "first_seen": "2026-09-07",
+    "new": false
+  },
+  {
+    "title": "Navigating the AWS Cloud Services Ecosystem: A Practical Guide (2026-09-07 18:35)",
+    "description": "Navigating the AWS Cloud Services Ecosystem: A Practical Guide   Amazon Web Services (AWS)...",
+    "url": "https://dev.to/said_olano/navigating-the-aws-cloud-services-ecosystem-a-practical-guide-2026-09-07-1835-l9",
+    "date": "2026-09-07",
+    "first_seen": "2026-09-07",
+    "new": false
+  },
+  {
+    "title": "Vector Databases: The Foundation of Modern AI Applications",
+    "description": "Comprehensive guide to vector databases, embeddings, ANN algorithms, and production implementations in Java with Spring AI",
+    "url": "https://dev.to/said_olano/vector-databases-the-foundation-of-modern-ai-applications-3058",
+    "date": "2026-09-07",
+    "first_seen": "2026-09-07",
+    "new": false
+  },
+  {
+    "title": "Grafana: Visualization and Dashboarding for Modern Observability (2026-09-06 23:19)",
+    "description": "Grafana: Visualization and Dashboarding   Grafana has become the de facto standard for...",
+    "url": "https://dev.to/said_olano/grafana-visualization-and-dashboarding-for-modern-observability-2026-09-06-2319-2662",
+    "date": "2026-09-06",
+    "first_seen": "2026-09-06",
+    "new": false
+  },
+  {
+    "title": "JAXB: Java Architecture for XML Binding Explained (2026-09-06 20:12)",
+    "description": "JAXB: Java Architecture for XML Binding   Working with XML in Java can be tedious if you...",
+    "url": "https://dev.to/said_olano/jaxb-java-architecture-for-xml-binding-explained-2026-09-06-2012-594c",
+    "date": "2026-09-06",
+    "first_seen": "2026-09-06",
+    "new": false
+  },
+  {
+    "title": "Claude AI: Building with the Latest Models (2026-09-06 16:42)",
+    "description": "Claude AI: Building with the Latest Models   Anthropic's Claude family of models has become...",
+    "url": "https://dev.to/said_olano/claude-ai-building-with-the-latest-models-2026-09-06-1642-o5c",
+    "date": "2026-09-06",
+    "first_seen": "2026-09-06",
+    "new": false
+  },
+  {
+    "title": "AWS EC2: Instance Types and Optimization (2026-09-05 23:26)",
+    "description": "AWS EC2: Instance Types and Optimization   Amazon Elastic Compute Cloud (EC2) is the...",
+    "url": "https://dev.to/said_olano/aws-ec2-instance-types-and-optimization-2026-09-05-2326-l0o",
+    "date": "2026-09-05",
+    "first_seen": "2026-09-05",
+    "new": false
+  },
+  {
+    "title": "Building Scalable Solutions on Google Cloud Platform: A Practical Guide (2026-09-05 20:07)",
+    "description": "Building Scalable Solutions on Google Cloud Platform   Google Cloud Platform (GCP) offers a...",
+    "url": "https://dev.to/said_olano/building-scalable-solutions-on-google-cloud-platform-a-practical-guide-2026-09-05-2007-k1j",
+    "date": "2026-09-05",
+    "first_seen": "2026-09-05",
+    "new": false
+  },
+  {
+    "title": "Understanding XML: A Practical Guide to Extensible Markup Language (2026-09-05 16:32)",
+    "description": "Understanding XML: A Practical Guide to Extensible Markup Language   XML (Extensible Markup...",
+    "url": "https://dev.to/said_olano/understanding-xml-a-practical-guide-to-extensible-markup-language-2026-09-05-1632-5h3n",
+    "date": "2026-09-05",
+    "first_seen": "2026-09-05",
+    "new": false
+  },
+  {
+    "title": "Dead Letter Pattern: How to Handle Failed Messages Without Losing Data",
+    "description": "Master the Dead Letter Pattern for message-driven systems. Includes complete Java implementation for payment processing with retry logic and recovery.",
+    "url": "https://dev.to/said_olano/dead-letter-pattern-how-to-handle-failed-messages-without-losing-data-4ddl",
+    "date": "2026-09-05",
+    "first_seen": "2026-09-05",
+    "new": false
+  },
+  {
+    "title": "Apache Camel: Building Message-Driven Architectures With Java",
+    "description": "Learn how to build message routing and data transformation pipelines with Apache Camel. Includes real-world fintech example.",
+    "url": "https://dev.to/said_olano/apache-camel-building-message-driven-architectures-with-java-3ad8",
+    "date": "2026-09-05",
+    "first_seen": "2026-09-05",
+    "new": false
+  },
+  {
+    "title": "Executive Governance and Strategic Roadmaps: How to Translate Vision Into Execution",
+    "description": "Executive Governance and Strategic Roadmaps: How to Translate Vision Into Execution   The...",
+    "url": "https://dev.to/said_olano/executive-governance-and-strategic-roadmaps-how-to-translate-vision-into-execution-20m2",
+    "date": "2026-09-05",
+    "first_seen": "2026-09-05",
+    "new": false
+  },
+  {
+    "title": "AWS DynamoDB: Mastering NoSQL Database Design (2026-09-04 23:30)",
+    "description": "AWS DynamoDB: Mastering NoSQL Database Design   Amazon DynamoDB is a fully managed,...",
+    "url": "https://dev.to/said_olano/aws-dynamodb-mastering-nosql-database-design-2026-09-04-2330-45g2",
+    "date": "2026-09-04",
+    "first_seen": "2026-09-04",
+    "new": false
+  },
+  {
+    "title": "Apache Kafka: Event Streaming Architecture (2026-09-04 20:31)",
+    "description": "Apache Kafka: Event Streaming Architecture   Apache Kafka has become the de facto standard...",
+    "url": "https://dev.to/said_olano/apache-kafka-event-streaming-architecture-2026-09-04-2031-15af",
+    "date": "2026-09-04",
+    "first_seen": "2026-09-04",
+    "new": false
+  },
+  {
+    "title": "Scalability and Technical Debt: The Hidden Trade-off That Determines Your System's Future",
+    "description": "The relationship between scalability and technical debt, how they compound over time, and the strategies that work to manage both.",
+    "url": "https://dev.to/said_olano/scalability-and-technical-debt-the-hidden-trade-off-that-determines-your-systems-future-4mff",
+    "date": "2026-09-04",
+    "first_seen": "2026-09-04",
+    "new": false
+  },
+  {
+    "title": "Effective Communication with Stakeholders: The Hidden Skill That Makes Engineering Leaders Succeed",
+    "description": "Master effective stakeholder communication: translate technical decisions into business value and build trust.",
+    "url": "https://dev.to/said_olano/effective-communication-with-stakeholders-the-hidden-skill-that-makes-engineering-leaders-succeed-4fn3",
+    "date": "2026-09-04",
+    "first_seen": "2026-09-04",
+    "new": false
+  },
+  {
+    "title": "Hiring a Software Development Engineer: A Senior Engineering Manager's Framework",
+    "description": "20 years of fintech hiring wisdom: a 4-layer screening process, take-home assessments, and the hiring scorecard that works",
+    "url": "https://dev.to/said_olano/hiring-a-software-development-engineer-a-senior-engineering-managers-framework-1pn9",
+    "date": "2026-09-04",
+    "first_seen": "2026-09-04",
+    "new": false
+  }
+]

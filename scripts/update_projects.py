@@ -7,10 +7,13 @@ import json
 import os
 import urllib.error
 import urllib.request
+from datetime import datetime, timedelta, timezone
 
 USER = "josesaid"
 TOPIC = "portfolio"
 OUT = "docs/_data/projects.json"
+NEW_DAYS = 3
+LOCAL_TZ = timezone(timedelta(hours=-6))  # America/Mexico_City (no DST)
 
 
 def _headers(token):
@@ -43,8 +46,18 @@ def has_docs_index(full_name, token):
         raise
 
 
+def load_previous():
+    """Return {name: first_seen} from the last run, so new repos can be flagged."""
+    if not os.path.exists(OUT):
+        return {}
+    with open(OUT, encoding="utf-8") as f:
+        return {p["name"]: p.get("first_seen", "") for p in json.load(f)}
+
+
 def main():
     token = os.environ.get("GITHUB_TOKEN")
+    seen = load_previous()
+    now = datetime.now(LOCAL_TZ).date()
     items = []
     for r in fetch_repos(token):
         if r.get("fork") or r.get("archived"):
@@ -56,6 +69,8 @@ def main():
         page = ""
         if r.get("has_pages") and has_docs_index(r["full_name"], token):
             page = f"https://{USER}.github.io/{r['name']}/"
+        first_seen = seen.get(r["name"]) or now.isoformat()
+        age = (now - datetime.fromisoformat(first_seen).date()).days
         items.append({
             "name": r["name"],
             "description": r.get("description") or "",
@@ -63,6 +78,8 @@ def main():
             "page": page,
             "language": r.get("language") or "",
             "updated": (r.get("pushed_at") or "")[:10],
+            "first_seen": first_seen,
+            "new": age < NEW_DAYS,
         })
     items.sort(key=lambda x: x["updated"], reverse=True)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)

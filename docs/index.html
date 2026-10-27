@@ -171,7 +171,7 @@ title: Home
       {% for p in site.data.projects %}
       {% assign tags = site.data.project_tags[p.name] %}{% if tags == nil %}{% assign tags = "" | split: "," %}{% endif %}
       <article class="card" data-tags="|{{ tags | join: '|' }}|" data-search="{{ p.name }} {{ p.description }} {{ tags | join: ' ' }}">
-        <h3>{{ p.name }}</h3>
+        <h3>{{ p.name }}{% if p.new %}<span class="new">NEW</span>{% endif %}</h3>
         {% if tags.size > 0 %}<div class="tags">{% for t in tags %}<span>{{ t }}</span>{% endfor %}</div>{% endif %}
         {% if p.description != "" %}<p>{{ p.description }}</p>{% endif %}
         <div class="go">
@@ -188,9 +188,10 @@ title: Home
   <section id="blog">
     <h2 class="section">Blog</h2>
     <ul class="blog-list">
-      <li><span class="date">2026-10-27</span><span><a href="https://dev.to/said_olano/building-rag-pipelines-in-java-ingestion-chunking-embeddings-vector-stores-evaluation-and-1odd">Building RAG Pipelines in Java: Ingestion, Chunking, Embeddings, Vector Stores, Evaluation, and Re-Ranking</a><span class="new">NEW</span><span class="src">· Dev.to</span></span></li>
-      <li><span class="date">2026-10-27</span><span><a href="https://dev.to/said_olano/mulesoft-for-java-developers-building-api-led-integrations-that-last-3h6o">MuleSoft for Java Developers: Building API-Led Integrations That Last</a><span class="new">NEW</span><span class="src">· Dev.to</span></span></li>
-      {% for post in site.posts limit: 12 %}
+      {% for a in site.data.devto_posts limit: 10 %}
+      <li><span class="date">{{ a.date }}</span><span><a href="{{ a.url }}">{{ a.title }}</a>{% if a.new %}<span class="new">NEW</span>{% endif %}<span class="src">· Dev.to</span></span></li>
+      {% endfor %}
+      {% for post in site.posts limit: 10 %}
       <li><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span><span><a href="{{ post.url | relative_url }}">{{ post.title }}</a><span class="src">· GitHub Pages</span></span></li>
       {% endfor %}
     </ul>
