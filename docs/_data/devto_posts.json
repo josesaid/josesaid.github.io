@@ -1,5 +1,21 @@
 [
   {
+    "title": "Agentic AI and Multi-Agent Systems: From Single Prompts to Coordinated Teams",
+    "description": "How agentic AI loops and multi-agent coordination work, with typed tools, guardrails, and Java examples for production systems.",
+    "url": "https://dev.to/said_olano/agentic-ai-and-multi-agent-systems-from-single-prompts-to-coordinated-teams-5f30",
+    "date": "2026-10-28",
+    "first_seen": "2026-10-29",
+    "new": true
+  },
+  {
+    "title": "Lint in Testing: The Steps to Add Static Checks to Your Java Test Pipeline",
+    "description": "A practical, step-by-step guide to adding Checkstyle, SpotBugs and ArchUnit to a Java testing pipeline, with baselines for legacy code.",
+    "url": "https://dev.to/said_olano/lint-in-testing-the-steps-to-add-static-checks-to-your-java-test-pipeline-1gj5",
+    "date": "2026-10-27",
+    "first_seen": "2026-10-29",
+    "new": true
+  },
+  {
     "title": "Building RAG Pipelines in Java: Ingestion, Chunking, Embeddings, Vector Stores, Evaluation, and Re-Ranking",
     "description": "A complete Java walkthrough of a production-minded RAG pipeline, from document ingestion and chunking to vector search, retrieval evaluation, and re-ranking.",
     "url": "https://dev.to/said_olano/building-rag-pipelines-in-java-ingestion-chunking-embeddings-vector-stores-evaluation-and-1odd",
@@ -779,22 +795,6 @@
     "title": "Scalability and Technical Debt: The Hidden Trade-off That Determines Your System's Future",
     "description": "The relationship between scalability and technical debt, how they compound over time, and the strategies that work to manage both.",
     "url": "https://dev.to/said_olano/scalability-and-technical-debt-the-hidden-trade-off-that-determines-your-systems-future-4mff",
-    "date": "2026-09-04",
-    "first_seen": "2026-09-04",
-    "new": false
-  },
-  {
-    "title": "Effective Communication with Stakeholders: The Hidden Skill That Makes Engineering Leaders Succeed",
-    "description": "Master effective stakeholder communication: translate technical decisions into business value and build trust.",
-    "url": "https://dev.to/said_olano/effective-communication-with-stakeholders-the-hidden-skill-that-makes-engineering-leaders-succeed-4fn3",
-    "date": "2026-09-04",
-    "first_seen": "2026-09-04",
-    "new": false
-  },
-  {
-    "title": "Hiring a Software Development Engineer: A Senior Engineering Manager's Framework",
-    "description": "20 years of fintech hiring wisdom: a 4-layer screening process, take-home assessments, and the hiring scorecard that works",
-    "url": "https://dev.to/said_olano/hiring-a-software-development-engineer-a-senior-engineering-managers-framework-1pn9",
     "date": "2026-09-04",
     "first_seen": "2026-09-04",
     "new": false
