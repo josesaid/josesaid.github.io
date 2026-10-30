@@ -1,5 +1,15 @@
 [
   {
+    "name": "EMPRESA_JOSESAID",
+    "description": "Plataforma EMPRESA_JOSESAID: microservicios de área",
+    "url": "https://github.com/josesaid/EMPRESA_JOSESAID",
+    "page": "",
+    "language": "HTML",
+    "updated": "2026-10-30",
+    "first_seen": "2026-10-30",
+    "new": true
+  },
+  {
     "name": "taller-spring-security",
     "description": "Spring Boot 4 / Java 25 course platform API: architecture, persistence, configuration and security roadmap",
     "url": "https://github.com/josesaid/taller-spring-security",
