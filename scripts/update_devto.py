@@ -1,7 +1,7 @@
 """Build _data/devto_posts.json from the public Dev.to articles of the user.
 
 Each article keeps the date it was first seen (first_seen). An article is marked
-"new" for NEW_DAYS days after that, so the home page can show the NEW badge.
+"new" for the NEW_COUNT most recent articles, so the home page can show the NEW badge.
 """
 import json
 import os
@@ -10,7 +10,7 @@ from datetime import datetime, timedelta, timezone
 
 USER = "said_olano"
 OUT = "docs/_data/devto_posts.json"
-NEW_DAYS = 3
+NEW_COUNT = 5  # the 5 most recent articles get the NEW badge
 LOCAL_TZ = timezone(timedelta(hours=-6))  # America/Mexico_City (no DST)
 
 
@@ -50,9 +50,11 @@ def main():
             "url": url,
             "date": (a.get("published_at") or "")[:10],
             "first_seen": first_seen,
-            "new": age < NEW_DAYS,
+            "new": False,
         })
     items.sort(key=lambda x: x["date"], reverse=True)
+    for i, item in enumerate(items):
+        item["new"] = i < NEW_COUNT
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(items, f, ensure_ascii=False, indent=2)
