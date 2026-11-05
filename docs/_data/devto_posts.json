@@ -1,5 +1,21 @@
 [
   {
+    "title": "Building Production Features with the Claude API in Java",
+    "description": "Why Claude Belongs in Your Java Architecture   Most Java teams first meet large language...",
+    "url": "https://dev.to/said_olano/building-production-features-with-the-claude-api-in-java-1ogb",
+    "date": "2026-11-03",
+    "first_seen": "2026-11-05",
+    "new": true
+  },
+  {
+    "title": "Apache Airflow for Java Engineers: Orchestrating Data Pipelines Beyond Python",
+    "description": "Introduction   Most data platforms eventually reach the same problem. Jobs that once ran...",
+    "url": "https://dev.to/said_olano/apache-airflow-for-java-engineers-orchestrating-data-pipelines-beyond-python-3c4k",
+    "date": "2026-11-03",
+    "first_seen": "2026-11-05",
+    "new": true
+  },
+  {
     "title": "Agentic AI and Multi-Agent Systems: From Single Prompts to Coordinated Teams",
     "description": "How agentic AI loops and multi-agent coordination work, with typed tools, guardrails, and Java examples for production systems.",
     "url": "https://dev.to/said_olano/agentic-ai-and-multi-agent-systems-from-single-prompts-to-coordinated-teams-5f30",
@@ -29,7 +45,7 @@
     "url": "https://dev.to/said_olano/mulesoft-for-java-developers-building-api-led-integrations-that-last-3h6o",
     "date": "2026-10-27",
     "first_seen": "2026-10-27",
-    "new": true
+    "new": false
   },
   {
     "title": "Building an AI Shirt Agent with Spring AI and Tool Calling",
@@ -37,7 +53,7 @@
     "url": "https://dev.to/said_olano/building-an-ai-shirt-agent-with-spring-ai-and-tool-calling-2kl4",
     "date": "2026-10-21",
     "first_seen": "2026-10-21",
-    "new": true
+    "new": false
   },
   {
     "title": "Building an AI Shirt Agent with Java and Spring AI: Tools, ChatClient, and REST",
@@ -779,22 +795,6 @@
     "title": "AWS DynamoDB: Mastering NoSQL Database Design (2026-09-04 23:30)",
     "description": "AWS DynamoDB: Mastering NoSQL Database Design   Amazon DynamoDB is a fully managed,...",
     "url": "https://dev.to/said_olano/aws-dynamodb-mastering-nosql-database-design-2026-09-04-2330-45g2",
-    "date": "2026-09-04",
-    "first_seen": "2026-09-04",
-    "new": false
-  },
-  {
-    "title": "Apache Kafka: Event Streaming Architecture (2026-09-04 20:31)",
-    "description": "Apache Kafka: Event Streaming Architecture   Apache Kafka has become the de facto standard...",
-    "url": "https://dev.to/said_olano/apache-kafka-event-streaming-architecture-2026-09-04-2031-15af",
-    "date": "2026-09-04",
-    "first_seen": "2026-09-04",
-    "new": false
-  },
-  {
-    "title": "Scalability and Technical Debt: The Hidden Trade-off That Determines Your System's Future",
-    "description": "The relationship between scalability and technical debt, how they compound over time, and the strategies that work to manage both.",
-    "url": "https://dev.to/said_olano/scalability-and-technical-debt-the-hidden-trade-off-that-determines-your-systems-future-4mff",
     "date": "2026-09-04",
     "first_seen": "2026-09-04",
     "new": false
