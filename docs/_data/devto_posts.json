@@ -1,5 +1,13 @@
 [
   {
+    "title": "One Codebase, Two AI Faces: A Spring AI 2.0 Assistant and an MCP Server Sharing the Same Tools",
+    "description": "Most Spring AI demos stop at a chat box. Most MCP demos stop at a \"hello world\" tool. I wanted to see...",
+    "url": "https://dev.to/said_olano/one-codebase-two-ai-faces-a-spring-ai-20-assistant-and-an-mcp-server-sharing-the-same-tools-57cl",
+    "date": "2026-11-06",
+    "first_seen": "2026-11-06",
+    "new": true
+  },
+  {
     "title": "Building Production Features with the Claude API in Java",
     "description": "Why Claude Belongs in Your Java Architecture   Most Java teams first meet large language...",
     "url": "https://dev.to/said_olano/building-production-features-with-the-claude-api-in-java-1ogb",
@@ -37,7 +45,7 @@
     "url": "https://dev.to/said_olano/building-rag-pipelines-in-java-ingestion-chunking-embeddings-vector-stores-evaluation-and-1odd",
     "date": "2026-10-27",
     "first_seen": "2026-10-27",
-    "new": true
+    "new": false
   },
   {
     "title": "MuleSoft for Java Developers: Building API-Led Integrations That Last",
@@ -789,14 +797,6 @@
     "url": "https://dev.to/said_olano/executive-governance-and-strategic-roadmaps-how-to-translate-vision-into-execution-20m2",
     "date": "2026-09-05",
     "first_seen": "2026-09-05",
-    "new": false
-  },
-  {
-    "title": "AWS DynamoDB: Mastering NoSQL Database Design (2026-09-04 23:30)",
-    "description": "AWS DynamoDB: Mastering NoSQL Database Design   Amazon DynamoDB is a fully managed,...",
-    "url": "https://dev.to/said_olano/aws-dynamodb-mastering-nosql-database-design-2026-09-04-2330-45g2",
-    "date": "2026-09-04",
-    "first_seen": "2026-09-04",
     "new": false
   }
 ]
