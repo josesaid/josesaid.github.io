@@ -5,7 +5,7 @@
     "url": "https://github.com/josesaid/EMPRESA_JOSESAID",
     "page": "https://josesaid.github.io/EMPRESA_JOSESAID/",
     "language": "HTML",
-    "updated": "2026-11-06",
+    "updated": "2026-11-08",
     "first_seen": "2026-10-30",
     "new": false
   },
@@ -17,7 +17,7 @@
     "language": "Java",
     "updated": "2026-11-06",
     "first_seen": "2026-11-05",
-    "new": true
+    "new": false
   },
   {
     "name": "taller-spring-security",
