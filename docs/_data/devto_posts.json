@@ -1,11 +1,51 @@
 [
   {
+    "title": "🧱 A Java Architecture Stack, Layer by Layer: From APIs to Availability and Recovery",
+    "description": "A Java Architecture Stack, Layer by Layer: From APIs to Availability and Recovery   A...",
+    "url": "https://dev.to/said_olano/a-java-architecture-stack-layer-by-layer-from-apis-to-availability-and-recovery-2a21",
+    "date": "2026-11-14",
+    "first_seen": "2026-11-14",
+    "new": true
+  },
+  {
+    "title": "🤝 How Cross-Functional Experience Makes Engineers Better at Building Software",
+    "description": "How Cross-Functional Experience Makes Engineers Better at Building Software   Some of the...",
+    "url": "https://dev.to/said_olano/how-cross-functional-experience-makes-engineers-better-at-building-software-j6n",
+    "date": "2026-11-14",
+    "first_seen": "2026-11-14",
+    "new": true
+  },
+  {
+    "title": "🤝 Why \"Customer-Facing\" Matters: Building Software That Meets People Where They Are",
+    "description": "Why \"Customer-Facing\" Matters: Building Software That Meets People Where They...",
+    "url": "https://dev.to/said_olano/why-customer-facing-matters-building-software-that-meets-people-where-they-are-oh9",
+    "date": "2026-11-14",
+    "first_seen": "2026-11-14",
+    "new": true
+  },
+  {
+    "title": "☁️ DigitalOcean Droplets Explained: What They Are, How to Set One Up, and What They Cost",
+    "description": "DigitalOcean Droplets Explained: What They Are, How to Set One Up, and What They Cost   When...",
+    "url": "https://dev.to/said_olano/digitalocean-droplets-explained-what-they-are-how-to-set-one-up-and-what-they-cost-1040",
+    "date": "2026-11-13",
+    "first_seen": "2026-11-14",
+    "new": true
+  },
+  {
+    "title": "🔀 nginx as a Reverse Proxy: A Practical Guide for Java and Spring Boot Services",
+    "description": "nginx as a Reverse Proxy: A Practical Guide for Java and Spring Boot Services   Most Java...",
+    "url": "https://dev.to/said_olano/nginx-as-a-reverse-proxy-a-practical-guide-for-java-and-spring-boot-services-12aj",
+    "date": "2026-11-13",
+    "first_seen": "2026-11-14",
+    "new": true
+  },
+  {
     "title": "One Codebase, Two AI Faces: A Spring AI 2.0 Assistant and an MCP Server Sharing the Same Tools",
     "description": "Most Spring AI demos stop at a chat box. Most MCP demos stop at a \"hello world\" tool. I wanted to see...",
     "url": "https://dev.to/said_olano/one-codebase-two-ai-faces-a-spring-ai-20-assistant-and-an-mcp-server-sharing-the-same-tools-57cl",
     "date": "2026-11-06",
     "first_seen": "2026-11-06",
-    "new": true
+    "new": false
   },
   {
     "title": "Building Production Features with the Claude API in Java",
@@ -13,7 +53,7 @@
     "url": "https://dev.to/said_olano/building-production-features-with-the-claude-api-in-java-1ogb",
     "date": "2026-11-03",
     "first_seen": "2026-11-05",
-    "new": true
+    "new": false
   },
   {
     "title": "Apache Airflow for Java Engineers: Orchestrating Data Pipelines Beyond Python",
@@ -21,7 +61,7 @@
     "url": "https://dev.to/said_olano/apache-airflow-for-java-engineers-orchestrating-data-pipelines-beyond-python-3c4k",
     "date": "2026-11-03",
     "first_seen": "2026-11-05",
-    "new": true
+    "new": false
   },
   {
     "title": "Agentic AI and Multi-Agent Systems: From Single Prompts to Coordinated Teams",
@@ -29,7 +69,7 @@
     "url": "https://dev.to/said_olano/agentic-ai-and-multi-agent-systems-from-single-prompts-to-coordinated-teams-5f30",
     "date": "2026-10-28",
     "first_seen": "2026-10-29",
-    "new": true
+    "new": false
   },
   {
     "title": "Lint in Testing: The Steps to Add Static Checks to Your Java Test Pipeline",
@@ -37,7 +77,7 @@
     "url": "https://dev.to/said_olano/lint-in-testing-the-steps-to-add-static-checks-to-your-java-test-pipeline-1gj5",
     "date": "2026-10-27",
     "first_seen": "2026-10-29",
-    "new": true
+    "new": false
   },
   {
     "title": "Building RAG Pipelines in Java: Ingestion, Chunking, Embeddings, Vector Stores, Evaluation, and Re-Ranking",
@@ -755,46 +795,6 @@
     "title": "AWS EC2: Instance Types and Optimization (2026-09-05 23:26)",
     "description": "AWS EC2: Instance Types and Optimization   Amazon Elastic Compute Cloud (EC2) is the...",
     "url": "https://dev.to/said_olano/aws-ec2-instance-types-and-optimization-2026-09-05-2326-l0o",
-    "date": "2026-09-05",
-    "first_seen": "2026-09-05",
-    "new": false
-  },
-  {
-    "title": "Building Scalable Solutions on Google Cloud Platform: A Practical Guide (2026-09-05 20:07)",
-    "description": "Building Scalable Solutions on Google Cloud Platform   Google Cloud Platform (GCP) offers a...",
-    "url": "https://dev.to/said_olano/building-scalable-solutions-on-google-cloud-platform-a-practical-guide-2026-09-05-2007-k1j",
-    "date": "2026-09-05",
-    "first_seen": "2026-09-05",
-    "new": false
-  },
-  {
-    "title": "Understanding XML: A Practical Guide to Extensible Markup Language (2026-09-05 16:32)",
-    "description": "Understanding XML: A Practical Guide to Extensible Markup Language   XML (Extensible Markup...",
-    "url": "https://dev.to/said_olano/understanding-xml-a-practical-guide-to-extensible-markup-language-2026-09-05-1632-5h3n",
-    "date": "2026-09-05",
-    "first_seen": "2026-09-05",
-    "new": false
-  },
-  {
-    "title": "Dead Letter Pattern: How to Handle Failed Messages Without Losing Data",
-    "description": "Master the Dead Letter Pattern for message-driven systems. Includes complete Java implementation for payment processing with retry logic and recovery.",
-    "url": "https://dev.to/said_olano/dead-letter-pattern-how-to-handle-failed-messages-without-losing-data-4ddl",
-    "date": "2026-09-05",
-    "first_seen": "2026-09-05",
-    "new": false
-  },
-  {
-    "title": "Apache Camel: Building Message-Driven Architectures With Java",
-    "description": "Learn how to build message routing and data transformation pipelines with Apache Camel. Includes real-world fintech example.",
-    "url": "https://dev.to/said_olano/apache-camel-building-message-driven-architectures-with-java-3ad8",
-    "date": "2026-09-05",
-    "first_seen": "2026-09-05",
-    "new": false
-  },
-  {
-    "title": "Executive Governance and Strategic Roadmaps: How to Translate Vision Into Execution",
-    "description": "Executive Governance and Strategic Roadmaps: How to Translate Vision Into Execution   The...",
-    "url": "https://dev.to/said_olano/executive-governance-and-strategic-roadmaps-how-to-translate-vision-into-execution-20m2",
     "date": "2026-09-05",
     "first_seen": "2026-09-05",
     "new": false

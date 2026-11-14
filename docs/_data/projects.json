@@ -1,5 +1,15 @@
 [
   {
+    "name": "Customer_SDD",
+    "description": "Customer CRUD REST API with Spring Boot 3.5 and Java 21, built with Spec-Driven Development (spec → tests → code).",
+    "url": "https://github.com/josesaid/Customer_SDD",
+    "page": "https://josesaid.github.io/Customer_SDD/",
+    "language": "Java",
+    "updated": "2026-11-14",
+    "first_seen": "2026-11-14",
+    "new": true
+  },
+  {
     "name": "EMPRESA_JOSESAID",
     "description": "Plataforma EMPRESA_JOSESAID: microservicios de área",
     "url": "https://github.com/josesaid/EMPRESA_JOSESAID",
