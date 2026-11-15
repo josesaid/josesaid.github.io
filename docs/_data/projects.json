@@ -4,7 +4,7 @@
     "description": "Catalog of 12 AWS reference architectures as interactive HTML diagrams",
     "url": "https://github.com/josesaid/aws-architecture-diagrams",
     "page": "https://josesaid.github.io/aws-architecture-diagrams/",
-    "language": "HTML",
+    "language": "",
     "updated": "2026-11-15",
     "first_seen": "2026-11-14",
     "new": true
