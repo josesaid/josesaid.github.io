@@ -7,124 +7,106 @@ title: Home
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Said Olano · Java and Spring projects</title>
+<title>Said Olano · Java Architect · Cloud Native Apps</title>
 <meta name="description" content="{{ site.description }}">
 <style>
   :root {
-    --bg: #f6f7f9;
-    --surface: #ffffff;
-    --text: #1d2330;
-    --muted: #5b6474;
-    --border: #e2e6ee;
-    --accent: #0a66c2;
-    --accent-soft: #e8f1fb;
-    --shadow: 0 1px 2px rgba(16,24,40,.05), 0 4px 12px rgba(16,24,40,.06);
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #0d1117; --surface: #161b22; --text: #e6edf3; --muted: #9aa4b2;
-      --border: #2a313c; --accent: #58a6ff; --accent-soft: #14243a; --shadow: none;
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #0d1117; --surface: #161b22; --text: #e6edf3; --muted: #9aa4b2;
-    --border: #2a313c; --accent: #58a6ff; --accent-soft: #14243a; --shadow: none;
+    --bg: #0a0a0a; --surface: #161616; --text: #f2f2f2; --muted: #9a9a9a;
+    --border: #2a2a2a; --accent: #d4ff3a; --accent-ink: #0a0a0a;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--bg); color: var(--text);
-    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font: 16px/1.6 Manrope, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
-  a { color: var(--accent); text-decoration: none; }
+  a { color: var(--accent); text-decoration: none; font-weight: 700; }
   a:hover { text-decoration: underline; }
 
-  header.top { background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 10; }
-  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 16px; }
-  .nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 12px 0; }
-  .nav-links { display: flex; gap: 6px; flex-wrap: wrap; }
-  .nav-links a { padding: 6px 12px; border-radius: 999px; color: var(--muted); font-size: 14px; }
-  .nav-links a.active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
-  .nav-links a:hover { text-decoration: none; color: var(--text); }
-  button.theme {
-    border: 1px solid var(--border); background: var(--surface); color: var(--text);
-    padding: 6px 12px; border-radius: 999px; cursor: pointer; font-size: 14px;
-  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+  nav.top { display: flex; flex-wrap: wrap; gap: 8px 20px; padding: 24px 0; font-size: 15px; }
+  nav.top a { color: var(--muted); font-weight: 600; }
+  nav.top a:hover { color: var(--text); }
 
-  .hero { display: flex; justify-content: space-between; align-items: center; gap: 32px; padding: 40px 0 24px; }
-  .hero > div { flex: 1; min-width: 0; }
+  .hero { display: flex; justify-content: space-between; align-items: center; gap: 32px; padding: 48px 0 40px; }
+  .hero h1 { margin: 0 0 8px; font-size: 64px; font-weight: 800; letter-spacing: -.02em; line-height: 1.05; }
+  .hero .title { margin: 0 0 20px; color: var(--accent); font-weight: 700; font-size: 18px; }
+  .hero .intro { margin: 0; font-size: 18px; line-height: 1.7; color: #c4c4c4; max-width: 640px; }
   .hero img {
-    width: 160px; height: 160px; border-radius: 50%; object-fit: cover; flex-shrink: 0;
-    border: 3px solid var(--surface); box-shadow: var(--shadow);
+    width: 150px; height: 150px; border-radius: 50%; object-fit: cover; flex-shrink: 0;
+    border: 2px solid var(--accent);
   }
-  .hero h1 { margin: 0; font-size: 34px; letter-spacing: -.01em; line-height: 1.15; }
-  .hero .tagline { margin: 6px 0 10px; color: var(--accent); font-weight: 600; max-width: 640px; }
-  .hero .meta { color: var(--muted); font-size: 15px; max-width: 640px; }
   .tag-wip {
     display: inline-block; font-size: 12px; padding: 2px 10px; border-radius: 999px;
-    background: var(--accent-soft); color: var(--accent); font-weight: 600;
-  }
-  .intro {
-    background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
-    padding: 18px 22px; margin: 8px 0 28px; box-shadow: var(--shadow); color: var(--muted);
+    background: var(--accent); color: var(--accent-ink); font-weight: 800; margin-left: 8px; vertical-align: middle;
   }
 
+  /* Timeline: "Now" */
   h2.section {
-    font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted);
-    margin: 28px 0 12px; font-weight: 700; scroll-margin-top: 70px;
+    font-size: 13px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted);
+    margin: 56px 0 20px; font-weight: 700; scroll-margin-top: 24px;
   }
+  .timeline { margin-left: 8px; }
+  .timeline .item { border-left: 2px solid var(--accent); padding: 0 0 28px 28px; }
+  .timeline .item:last-child { padding-bottom: 0; }
+  .timeline .item h3 { margin: 0; font-size: 18px; font-weight: 700; }
+  .timeline .item p { margin: 6px 0 0; color: var(--muted); line-height: 1.6; }
+
+  /* Projects: search, chips, grid */
   .toolbar { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
   input[type=search] {
-    flex: 1; min-width: 220px; padding: 11px 14px; border: 1px solid var(--border);
-    border-radius: 10px; font: inherit; background: var(--surface); color: var(--text);
+    flex: 1; min-width: 220px; padding: 12px 16px; border: 1px solid var(--border);
+    border-radius: 12px; font: inherit; background: var(--surface); color: var(--text);
   }
+  input[type=search]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
   .chip {
     border: 1px solid var(--border); background: var(--surface); color: var(--text);
     padding: 6px 14px; border-radius: 999px; cursor: pointer; font: inherit; font-size: 14px;
   }
-  .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .count { color: var(--muted); font-size: 14px; margin: 6px 0 14px; }
+  .chip.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 700; }
+  .count { color: var(--muted); font-size: 14px; margin: 6px 0 16px; }
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
   .card {
-    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
-    padding: 16px 18px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 8px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: 20px; display: flex; flex-direction: column; gap: 10px;
     transition: transform .15s ease, border-color .15s ease;
   }
-  .card:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .card:hover { transform: translateY(-3px); border-color: var(--accent); }
   .card h3 { margin: 0; font-size: 1.05rem; line-height: 1.35; word-break: break-word; }
   .card p { margin: 0; color: var(--muted); font-size: 14px; flex: 1; }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tags span {
     font-size: 12px; padding: 2px 10px; border-radius: 999px;
-    background: var(--accent-soft); color: var(--accent); font-weight: 600;
+    border: 1px solid var(--border); color: var(--accent); font-weight: 600;
   }
   .go { display: flex; gap: 14px; font-size: 14px; flex-wrap: wrap; margin-top: auto; }
+  .new {
+    display: inline-block; margin-left: 8px; font-size: 11px; font-weight: 800;
+    padding: 1px 8px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); vertical-align: middle;
+  }
 
+  /* Blog */
   .blog-list {
     list-style: none; margin: 0; padding: 0; background: var(--surface);
-    border: 1px solid var(--border); border-radius: 12px; box-shadow: var(--shadow);
+    border: 1px solid var(--border); border-radius: 16px;
   }
   .blog-list li {
-    padding: 14px 18px; border-bottom: 1px solid var(--border);
+    padding: 14px 20px; border-bottom: 1px solid var(--border);
     display: grid; grid-template-columns: 110px 1fr; gap: 12px; align-items: baseline;
   }
   .blog-list li:last-child { border-bottom: none; }
   .blog-list .date { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
   .blog-list .src { color: var(--muted); font-size: 12px; margin-left: 8px; }
-  .new {
-    display: inline-block; margin-left: 8px; font-size: 11px; font-weight: 700;
-    padding: 1px 8px; border-radius: 999px; background: var(--accent); color: #fff; vertical-align: middle;
-  }
 
   footer {
     border-top: 1px solid var(--border); color: var(--muted); font-size: 14px;
-    text-align: center; padding: 24px 0 40px; margin-top: 40px;
+    padding: 28px 0 48px; margin-top: 56px;
   }
 
   @media (max-width: 600px) {
     .hero { flex-direction: column-reverse; align-items: flex-start; gap: 20px; }
-    .hero img { width: 120px; height: 120px; }
-    .hero h1 { font-size: 28px; }
+    .hero img { width: 110px; height: 110px; }
+    .hero h1 { font-size: 40px; }
     .grid { grid-template-columns: 1fr; }
     .blog-list li { grid-template-columns: 1fr; gap: 2px; }
   }
@@ -132,98 +114,87 @@ title: Home
 </head>
 <body>
 
-<header class="top">
-  <div class="wrap nav">
-    <nav class="nav-links" aria-label="Main">
-      <a class="active" href="#projects" aria-current="page">Projects</a>
-      <a href="#blog">Blog</a>
-      <a href="https://josesaid08.s3.us-east-1.amazonaws.com/site/index.html">Site</a>
-      <a href="https://github.com/josesaid">GitHub</a>
-      <a href="https://www.linkedin.com/in/josesaid">LinkedIn</a>
-      <a href="https://dev.to/said_olano">Tech Blog</a>
-    </nav>
-    <button class="theme" id="themeToggle" type="button" aria-label="Toggle dark mode">🌙 Dark</button>
-  </div>
-</header>
+<div class="wrap">
+  <nav class="top" aria-label="Main">
+    <a href="#projects">Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="https://josesaid08.s3.us-east-1.amazonaws.com/site/index.html">Site</a>
+    <a href="https://github.com/josesaid">GitHub</a>
+    <a href="https://www.linkedin.com/in/josesaid">LinkedIn</a>
+    <a href="https://dev.to/said_olano">Tech Blog</a>
+  </nav>
 
-<main class="wrap">
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Said Olano</h1>
+        <p class="title">Java Architect · Senior Software Development Manager</p>
+        <p class="intro">I design and lead Java and Spring platforms for cloud native applications, with AI integrations and secure APIs on top. <span class="tag-wip">Work in progress</span></p>
+      </div>
+      <img src="https://josesaid08.s3.us-east-1.amazonaws.com/site/assets/img/Said.png" alt="Said Olano">
+    </section>
 
-  <section class="hero">
-    <div>
-      <h1>Said Olano</h1>
-      <p class="tagline">Senior Software Development Manager · Java &amp; Spring</p>
-      <p class="meta">Java and Spring projects: AI integrations, microservices, and secure APIs. <span class="tag-wip">Work in progress</span></p>
-    </div>
-    <img src="https://josesaid08.s3.us-east-1.amazonaws.com/site/assets/img/Said.png" alt="Said Olano">
-  </section>
-
-  <p class="intro">
-    Senior Software Development Manager. I build Java and Spring systems, with a focus on AI integrations,
-    microservices and secure APIs. Filter the projects by technology below.
-  </p>
-
-  <section id="projects">
-    <h2 class="section">Projects</h2>
-    <div class="toolbar"><input type="search" id="q" placeholder="Search projects or technologies…" aria-label="Search projects"></div>
-    <div class="toolbar" id="chips"></div>
-    <p class="count" id="count"></p>
-    <div class="grid" id="grid">
-      {% for p in site.data.projects %}
-      {% assign tags = site.data.project_tags[p.name] %}{% if tags == nil %}{% assign tags = "" | split: "," %}{% endif %}
-      <article class="card" data-tags="|{{ tags | join: '|' }}|" data-search="{{ p.name }} {{ p.description }} {{ tags | join: ' ' }}">
-        <h3>{{ p.name }}{% if p.new %}<span class="new">NEW</span>{% endif %}</h3>
-        {% if tags.size > 0 %}<div class="tags">{% for t in tags %}<span>{{ t }}</span>{% endfor %}</div>{% endif %}
-        {% if p.description != "" %}<p>{{ p.description }}</p>{% endif %}
-        <div class="go">
-          {% if p.page != "" %}<a href="{{ p.page }}">Project page →</a>{% endif %}
-          <a href="{{ p.url }}">Source</a>
+    <section aria-labelledby="now-title">
+      <h2 class="section" id="now-title">Now</h2>
+      <div class="timeline">
+        <div class="item">
+          <h3>Cloud native platforms and AI integrations</h3>
+          <p>Spring Boot microservices on AWS, GCP and OCI, with Spring AI and RAG layers.</p>
         </div>
-      </article>
-      {% else %}
-      <p>No projects yet.</p>
-      {% endfor %}
-    </div>
-  </section>
+        <div class="item">
+          <h3>Java and Spring architecture</h3>
+          <p>Secure APIs, Spring Cloud and Kafka, with Docker for delivery.</p>
+        </div>
+        <div class="item">
+          <h3>Fintech and digital banking</h3>
+          <p>More than 20 years of IT experience. Dual Master's in Computer Science and Business Administration.</p>
+        </div>
+      </div>
+    </section>
 
-  <section id="blog">
-    <h2 class="section">Blog</h2>
-    <ul class="blog-list">
-      {% for a in site.data.devto_posts limit: 10 %}
-      <li><span class="date">{{ a.date }}</span><span><a href="{{ a.url }}">{{ a.title }}</a>{% if a.new %}<span class="new">NEW</span>{% endif %}<span class="src">· Dev.to</span></span></li>
-      {% endfor %}
-      {% for post in site.posts limit: 10 %}
-      <li><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span><span><a href="{{ post.url | relative_url }}">{{ post.title }}</a><span class="src">· GitHub Pages</span></span></li>
-      {% endfor %}
-    </ul>
-  </section>
+    <section id="projects">
+      <h2 class="section">Projects</h2>
+      <div class="toolbar"><input type="search" id="q" placeholder="Search projects or technologies…" aria-label="Search projects"></div>
+      <div class="toolbar" id="chips"></div>
+      <p class="count" id="count"></p>
+      <div class="grid" id="grid">
+        {% for p in site.data.projects %}
+        {% assign tags = site.data.project_tags[p.name] %}{% if tags == nil %}{% assign tags = "" | split: "," %}{% endif %}
+        <article class="card" data-tags="|{{ tags | join: '|' }}|" data-search="{{ p.name }} {{ p.description }} {{ tags | join: ' ' }}">
+          <h3>{{ p.name }}{% if p.new %}<span class="new">NEW</span>{% endif %}</h3>
+          {% if tags.size > 0 %}<div class="tags">{% for t in tags %}<span>{{ t }}</span>{% endfor %}</div>{% endif %}
+          {% if p.description != "" %}<p>{{ p.description }}</p>{% endif %}
+          <div class="go">
+            {% if p.page != "" %}<a href="{{ p.page }}">Project page →</a>{% endif %}
+            <a href="{{ p.url }}">Source</a>
+          </div>
+        </article>
+        {% else %}
+        <p>No projects yet.</p>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section id="blog">
+      <h2 class="section">Blog</h2>
+      <ul class="blog-list">
+        {% for a in site.data.devto_posts limit: 10 %}
+        <li><span class="date">{{ a.date }}</span><span><a href="{{ a.url }}">{{ a.title }}</a>{% if a.new %}<span class="new">NEW</span>{% endif %}<span class="src">· Dev.to</span></span></li>
+        {% endfor %}
+        {% for post in site.posts limit: 10 %}
+        <li><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span><span><a href="{{ post.url | relative_url }}">{{ post.title }}</a><span class="src">· GitHub Pages</span></span></li>
+        {% endfor %}
+      </ul>
+    </section>
+  </main>
 
   <footer>
     Source and documentation: <a href="https://github.com/josesaid">github.com/josesaid</a> ·
     Articles on <a href="https://dev.to/said_olano">Dev.to</a> · Projects refresh daily from GitHub.
   </footer>
-
-</main>
+</div>
 
 <script>
-(function () {
-  var root = document.documentElement;
-  var btn = document.getElementById('themeToggle');
-  function current() {
-    var explicit = root.getAttribute('data-theme');
-    if (explicit) return explicit;
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  }
-  function label() { btn.textContent = current() === 'dark' ? '☀️ Light' : '🌙 Dark'; }
-  try { var saved = localStorage.getItem('theme'); if (saved) root.setAttribute('data-theme', saved); } catch (e) {}
-  label();
-  btn.addEventListener('click', function () {
-    var next = current() === 'dark' ? 'light' : 'dark';
-    root.setAttribute('data-theme', next);
-    try { localStorage.setItem('theme', next); } catch (e) {}
-    label();
-  });
-})();
-
 (function () {
   var cards = [].slice.call(document.querySelectorAll('.card'));
   var chipsEl = document.getElementById('chips'), q = document.getElementById('q'), countEl = document.getElementById('count');
@@ -235,7 +206,11 @@ title: Home
   var active = null;
   function setActive(t) {
     active = (t === 'All') ? null : t;
-    [].forEach.call(chipsEl.children, function (x) { x.classList.toggle('on', x.textContent === t); });
+    [].forEach.call(chipsEl.children, function (x) {
+      var on = x.textContent === t;
+      x.classList.toggle('on', on);
+      x.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
     render();
   }
   ['All'].concat(tags).forEach(function (t) {
