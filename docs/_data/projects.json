@@ -1,11 +1,21 @@
 [
   {
+    "name": "aws-architecture-diagrams",
+    "description": "Catalog of 12 AWS reference architectures as interactive HTML diagrams",
+    "url": "https://github.com/josesaid/aws-architecture-diagrams",
+    "page": "https://josesaid.github.io/aws-architecture-diagrams/",
+    "language": "HTML",
+    "updated": "2026-11-15",
+    "first_seen": "2026-11-14",
+    "new": true
+  },
+  {
     "name": "Customer_SDD",
     "description": "Customer CRUD REST API with Spring Boot 3.5 and Java 21, built with Spec-Driven Development (spec → tests → code).",
     "url": "https://github.com/josesaid/Customer_SDD",
     "page": "https://josesaid.github.io/Customer_SDD/",
     "language": "Java",
-    "updated": "2026-11-14",
+    "updated": "2026-11-15",
     "first_seen": "2026-11-14",
     "new": true
   },
