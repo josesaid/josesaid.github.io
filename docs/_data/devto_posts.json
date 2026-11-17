@@ -1,5 +1,21 @@
 [
   {
+    "title": "From a Static Site to Multi-Region DR: 12 AWS Reference Architectures, Explained",
+    "description": "Most AWS diagrams I find online fall into one of two groups. Some are simple enough to fit on a slide...",
+    "url": "https://dev.to/said_olano/from-a-static-site-to-multi-region-dr-12-aws-reference-architectures-explained-32bc",
+    "date": "2026-11-15",
+    "first_seen": "2026-11-17",
+    "new": true
+  },
+  {
+    "title": "Spec Driven Development",
+    "description": "Why I wrote the spec before the code   Most CRUD APIs I have reviewed in my career share the...",
+    "url": "https://dev.to/said_olano/spec-driven-development-5e7m",
+    "date": "2026-11-15",
+    "first_seen": "2026-11-17",
+    "new": true
+  },
+  {
     "title": "🧱 A Java Architecture Stack, Layer by Layer: From APIs to Availability and Recovery",
     "description": "A Java Architecture Stack, Layer by Layer: From APIs to Availability and Recovery   A...",
     "url": "https://dev.to/said_olano/a-java-architecture-stack-layer-by-layer-from-apis-to-availability-and-recovery-2a21",
@@ -29,7 +45,7 @@
     "url": "https://dev.to/said_olano/digitalocean-droplets-explained-what-they-are-how-to-set-one-up-and-what-they-cost-1040",
     "date": "2026-11-13",
     "first_seen": "2026-11-14",
-    "new": true
+    "new": false
   },
   {
     "title": "🔀 nginx as a Reverse Proxy: A Practical Guide for Java and Spring Boot Services",
@@ -37,7 +53,7 @@
     "url": "https://dev.to/said_olano/nginx-as-a-reverse-proxy-a-practical-guide-for-java-and-spring-boot-services-12aj",
     "date": "2026-11-13",
     "first_seen": "2026-11-14",
-    "new": true
+    "new": false
   },
   {
     "title": "One Codebase, Two AI Faces: A Spring AI 2.0 Assistant and an MCP Server Sharing the Same Tools",
@@ -781,22 +797,6 @@
     "url": "https://dev.to/said_olano/jaxb-java-architecture-for-xml-binding-explained-2026-09-06-2012-594c",
     "date": "2026-09-06",
     "first_seen": "2026-09-06",
-    "new": false
-  },
-  {
-    "title": "Claude AI: Building with the Latest Models (2026-09-06 16:42)",
-    "description": "Claude AI: Building with the Latest Models   Anthropic's Claude family of models has become...",
-    "url": "https://dev.to/said_olano/claude-ai-building-with-the-latest-models-2026-09-06-1642-o5c",
-    "date": "2026-09-06",
-    "first_seen": "2026-09-06",
-    "new": false
-  },
-  {
-    "title": "AWS EC2: Instance Types and Optimization (2026-09-05 23:26)",
-    "description": "AWS EC2: Instance Types and Optimization   Amazon Elastic Compute Cloud (EC2) is the...",
-    "url": "https://dev.to/said_olano/aws-ec2-instance-types-and-optimization-2026-09-05-2326-l0o",
-    "date": "2026-09-05",
-    "first_seen": "2026-09-05",
     "new": false
   }
 ]

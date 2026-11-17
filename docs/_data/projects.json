@@ -7,7 +7,7 @@
     "language": "",
     "updated": "2026-11-15",
     "first_seen": "2026-11-14",
-    "new": true
+    "new": false
   },
   {
     "name": "Customer_SDD",
@@ -17,7 +17,7 @@
     "language": "Java",
     "updated": "2026-11-15",
     "first_seen": "2026-11-14",
-    "new": true
+    "new": false
   },
   {
     "name": "EMPRESA_JOSESAID",
