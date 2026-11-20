@@ -1,5 +1,15 @@
 [
   {
+    "name": "chain-workflow",
+    "description": "Prompt chaining workflow pattern with Spring AI 2.1 and Anthropic Claude: four sequential LLM calls turn a text report into a sorted markdown table.",
+    "url": "https://github.com/josesaid/chain-workflow",
+    "page": "https://josesaid.github.io/chain-workflow/",
+    "language": "Java",
+    "updated": "2026-11-20",
+    "first_seen": "2026-11-19",
+    "new": true
+  },
+  {
     "name": "aws-architecture-diagrams",
     "description": "Catalog of 12 AWS reference architectures as interactive HTML diagrams",
     "url": "https://github.com/josesaid/aws-architecture-diagrams",

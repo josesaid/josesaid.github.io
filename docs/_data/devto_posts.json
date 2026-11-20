@@ -1,11 +1,51 @@
 [
   {
+    "title": "Five Spring AI Agentic Patterns Every Java Developer Should Know",
+    "description": "Router, RAG, Chain of Thought, Supervisor, and Guardrails & Validation: five agentic patterns for building reliable AI systems with Spring AI.",
+    "url": "https://dev.to/said_olano/five-spring-ai-agentic-patterns-every-java-developer-should-know-30ak",
+    "date": "2026-11-20",
+    "first_seen": "2026-11-19",
+    "new": true
+  },
+  {
+    "title": "DFM, Tolerance Analysis, DOE, and Form-Fit-Function: From Failure Root Cause to Customer Report (with Java)",
+    "description": "How to combine DFM, tolerance stack-up, Design of Experiments and form-fit-function to find failure root causes and report them to customers, with a Java toolkit.",
+    "url": "https://dev.to/said_olano/dfm-tolerance-analysis-doe-and-form-fit-function-from-failure-root-cause-to-customer-report-5no",
+    "date": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "new": true
+  },
+  {
+    "title": "Why Daily Logistics KPIs Matter: Productivity, OTIF, Inventory Accuracy, and Operational Issues (with Java)",
+    "description": "How to define and follow up on logistics KPIs every day, and how to compute productivity, OTIF, inventory accuracy and issue metrics from events in Java.",
+    "url": "https://dev.to/said_olano/why-daily-logistics-kpis-matter-productivity-otif-inventory-accuracy-and-operational-issues-1c4n",
+    "date": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "new": true
+  },
+  {
+    "title": "New Product Introduction (NPI): From Prototype to Volume Production, with Java Stage Gates",
+    "description": "The main NPI activities, build phases, and stage-gate criteria that move a product to volume manufacturing, plus a Java model that enforces gate rules.",
+    "url": "https://dev.to/said_olano/new-product-introduction-npi-from-prototype-to-volume-production-with-java-stage-gates-fpe",
+    "date": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "new": true
+  },
+  {
+    "title": "Kubernetes Metrics Server: How kubectl top and Autoscaling Get Their Data (with Java)",
+    "description": "How Kubernetes Metrics Server collects CPU and memory usage, why requests drive HPA, common failures, and how to query the Metrics API from Java.",
+    "url": "https://dev.to/said_olano/kubernetes-metrics-server-how-kubectl-top-and-autoscaling-get-their-data-with-java-5e9p",
+    "date": "2026-11-19",
+    "first_seen": "2026-11-19",
+    "new": true
+  },
+  {
     "title": "From a Static Site to Multi-Region DR: 12 AWS Reference Architectures, Explained",
     "description": "Most AWS diagrams I find online fall into one of two groups. Some are simple enough to fit on a slide...",
     "url": "https://dev.to/said_olano/from-a-static-site-to-multi-region-dr-12-aws-reference-architectures-explained-32bc",
     "date": "2026-11-15",
     "first_seen": "2026-11-17",
-    "new": true
+    "new": false
   },
   {
     "title": "Spec Driven Development",
@@ -13,7 +53,7 @@
     "url": "https://dev.to/said_olano/spec-driven-development-5e7m",
     "date": "2026-11-15",
     "first_seen": "2026-11-17",
-    "new": true
+    "new": false
   },
   {
     "title": "🧱 A Java Architecture Stack, Layer by Layer: From APIs to Availability and Recovery",
@@ -21,7 +61,7 @@
     "url": "https://dev.to/said_olano/a-java-architecture-stack-layer-by-layer-from-apis-to-availability-and-recovery-2a21",
     "date": "2026-11-14",
     "first_seen": "2026-11-14",
-    "new": true
+    "new": false
   },
   {
     "title": "🤝 How Cross-Functional Experience Makes Engineers Better at Building Software",
@@ -29,7 +69,7 @@
     "url": "https://dev.to/said_olano/how-cross-functional-experience-makes-engineers-better-at-building-software-j6n",
     "date": "2026-11-14",
     "first_seen": "2026-11-14",
-    "new": true
+    "new": false
   },
   {
     "title": "🤝 Why \"Customer-Facing\" Matters: Building Software That Meets People Where They Are",
@@ -37,7 +77,7 @@
     "url": "https://dev.to/said_olano/why-customer-facing-matters-building-software-that-meets-people-where-they-are-oh9",
     "date": "2026-11-14",
     "first_seen": "2026-11-14",
-    "new": true
+    "new": false
   },
   {
     "title": "☁️ DigitalOcean Droplets Explained: What They Are, How to Set One Up, and What They Cost",
@@ -757,46 +797,6 @@
     "url": "https://dev.to/said_olano/reverse-proxy-the-architecture-pattern-every-backend-engineer-should-master-44j0",
     "date": "2026-09-07",
     "first_seen": "2026-09-07",
-    "new": false
-  },
-  {
-    "title": "Mastering the ELK Stack: A Practical Guide to Elasticsearch, Logstash, and Kibana (2026-09-07 21:20)",
-    "description": "Mastering the ELK Stack: A Practical Guide to Elasticsearch, Logstash, and Kibana   Modern...",
-    "url": "https://dev.to/said_olano/mastering-the-elk-stack-a-practical-guide-to-elasticsearch-logstash-and-kibana-2026-09-07-2120-eci",
-    "date": "2026-09-07",
-    "first_seen": "2026-09-07",
-    "new": false
-  },
-  {
-    "title": "Navigating the AWS Cloud Services Ecosystem: A Practical Guide (2026-09-07 18:35)",
-    "description": "Navigating the AWS Cloud Services Ecosystem: A Practical Guide   Amazon Web Services (AWS)...",
-    "url": "https://dev.to/said_olano/navigating-the-aws-cloud-services-ecosystem-a-practical-guide-2026-09-07-1835-l9",
-    "date": "2026-09-07",
-    "first_seen": "2026-09-07",
-    "new": false
-  },
-  {
-    "title": "Vector Databases: The Foundation of Modern AI Applications",
-    "description": "Comprehensive guide to vector databases, embeddings, ANN algorithms, and production implementations in Java with Spring AI",
-    "url": "https://dev.to/said_olano/vector-databases-the-foundation-of-modern-ai-applications-3058",
-    "date": "2026-09-07",
-    "first_seen": "2026-09-07",
-    "new": false
-  },
-  {
-    "title": "Grafana: Visualization and Dashboarding for Modern Observability (2026-09-06 23:19)",
-    "description": "Grafana: Visualization and Dashboarding   Grafana has become the de facto standard for...",
-    "url": "https://dev.to/said_olano/grafana-visualization-and-dashboarding-for-modern-observability-2026-09-06-2319-2662",
-    "date": "2026-09-06",
-    "first_seen": "2026-09-06",
-    "new": false
-  },
-  {
-    "title": "JAXB: Java Architecture for XML Binding Explained (2026-09-06 20:12)",
-    "description": "JAXB: Java Architecture for XML Binding   Working with XML in Java can be tedious if you...",
-    "url": "https://dev.to/said_olano/jaxb-java-architecture-for-xml-binding-explained-2026-09-06-2012-594c",
-    "date": "2026-09-06",
-    "first_seen": "2026-09-06",
     "new": false
   }
 ]
