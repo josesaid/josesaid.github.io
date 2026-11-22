@@ -3,6 +3,7 @@ layout: post
 title: "chain-workflow: prompt chaining with Spring AI and Claude"
 description: "Spring Boot 4.1 and Spring AI 2.1 command-line app that runs four sequential LLM calls to turn a text report into a sorted markdown table."
 tags: [Java, AI, Agents, Prompts]
+new: true
 links:
   - url: "https://github.com/josesaid/chain-workflow"
     label: "Source on GitHub"
