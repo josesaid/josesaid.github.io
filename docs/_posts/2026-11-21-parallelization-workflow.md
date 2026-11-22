@@ -4,6 +4,7 @@ title: "parallelization-workflow: concurrent LLM calls with Spring AI and Claude
 description: "Spring Boot 4.1 and Spring AI 2.1 command-line app that runs four stakeholder analyses as parallel LLM calls and returns them in input order."
 tags: [Java, AI, Agents, Concurrency]
 new: true
+external_url: "https://dev.to/said_olano/parallelization-workflow-with-spring-ai-fan-out-llm-calls-in-java-43fg"
 links:
   - url: "https://github.com/josesaid/parallelization-workflow"
     label: "Source on GitHub"

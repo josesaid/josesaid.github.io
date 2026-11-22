@@ -4,6 +4,7 @@ title: "orchestrator-workers: a model plans the subtasks, workers execute them"
 description: "Spring Boot 4.1 and Spring AI 2.1 example where an orchestrator LLM returns structured subtasks and worker calls produce each piece."
 tags: [Java, AI, Agents, Orchestration]
 new: true
+external_url: "https://dev.to/said_olano/orchestrator-workers-with-spring-ai-let-the-model-decide-the-subtasks-1618"
 links:
   - url: "https://github.com/josesaid/orchestrator-workers"
     label: "Source on GitHub"

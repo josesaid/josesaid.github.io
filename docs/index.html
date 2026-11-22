@@ -179,7 +179,7 @@ title: Home
       <h2 class="section">Blog</h2>
       <ul class="blog-list">
         {% for post in site.posts limit: 10 %}
-        <li><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span><span><a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if post.new %}<span class="new">NEW</span>{% endif %}<span class="src">· GitHub Pages</span></span></li>
+        <li><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span><span><a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url | relative_url }}{% endif %}">{{ post.title }}</a>{% if post.new %}<span class="new">NEW</span>{% endif %}<span class="src">{% if post.external_url %}· Dev.to{% else %}· GitHub Pages{% endif %}</span></span></li>
         {% endfor %}
         {% for a in site.data.devto_posts limit: 10 %}
         <li><span class="date">{{ a.date }}</span><span><a href="{{ a.url }}">{{ a.title }}</a>{% if a.new %}<span class="new">NEW</span>{% endif %}<span class="src">· Dev.to</span></span></li>

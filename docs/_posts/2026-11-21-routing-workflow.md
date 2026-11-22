@@ -4,6 +4,7 @@ title: "routing-workflow: classify first, then answer with Spring AI and Claude"
 description: "Spring Boot 4.1 and Spring AI 2.1 command-line app that classifies support tickets with structured output and sends each one to a specialized prompt."
 tags: [Java, AI, Agents, Routing]
 new: true
+external_url: "https://dev.to/said_olano/routing-workflow-with-spring-ai-classify-first-then-answer-4m4b"
 links:
   - url: "https://github.com/josesaid/routing-workflow"
     label: "Source on GitHub"
