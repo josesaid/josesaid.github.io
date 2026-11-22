@@ -1,5 +1,15 @@
 [
   {
+    "name": "parallelization-workflow",
+    "description": "Parallelization workflow pattern with Spring AI 2.1 and Anthropic Claude: four stakeholder analyses run as concurrent LLM calls and return in input order.",
+    "url": "https://github.com/josesaid/parallelization-workflow",
+    "page": "https://josesaid.github.io/parallelization-workflow/",
+    "language": "Java",
+    "updated": "2026-11-22",
+    "first_seen": "2026-11-21",
+    "new": true
+  },
+  {
     "name": "chain-workflow",
     "description": "Prompt chaining workflow pattern with Spring AI 2.1 and Anthropic Claude: four sequential LLM calls turn a text report into a sorted markdown table.",
     "url": "https://github.com/josesaid/chain-workflow",
