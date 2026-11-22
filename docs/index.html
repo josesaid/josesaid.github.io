@@ -211,6 +211,7 @@ title: Home
       x.classList.toggle('on', on);
       x.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
+    history.replaceState(null, '', active ? '#' + encodeURIComponent(active) : location.pathname + location.search);
     render();
   }
   ['All'].concat(tags).forEach(function (t) {
@@ -232,6 +233,14 @@ title: Home
     countEl.textContent = shown + ' of ' + cards.length + ' projects' + (active ? ' · ' + active : '');
   }
   q.oninput = render;
+  function fromHash() {
+    var h = decodeURIComponent(location.hash.replace(/^#/, '')).toLowerCase();
+    if (!h) return;
+    var match = tags.filter(function (t) { return t.toLowerCase() === h; })[0];
+    if (match) setActive(match);
+  }
+  window.addEventListener('hashchange', fromHash);
+  fromHash();
   render();
 })();
 </script>
