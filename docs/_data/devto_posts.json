@@ -1,5 +1,37 @@
 [
   {
+    "title": "Prompt Chaining with Spring AI: Four Small Steps Beat One Big Prompt",
+    "description": "How prompt chaining works in Spring AI: a fixed sequence of small LLM steps, the contract between them, and where the sample needs gates and failure handling.",
+    "url": "https://dev.to/said_olano/prompt-chaining-with-spring-ai-four-small-steps-beat-one-big-prompt-37gg",
+    "date": "2026-11-22",
+    "first_seen": "2026-11-22",
+    "new": true
+  },
+  {
+    "title": "Orchestrator-Workers with Spring AI: Let the Model Decide the Subtasks",
+    "description": "How the orchestrator-workers agentic pattern works in Spring AI: a model plans the subtasks, workers execute them, and the results are assembled.",
+    "url": "https://dev.to/said_olano/orchestrator-workers-with-spring-ai-let-the-model-decide-the-subtasks-1618",
+    "date": "2026-11-22",
+    "first_seen": "2026-11-22",
+    "new": true
+  },
+  {
+    "title": "Routing Workflow with Spring AI: Classify First, Then Answer",
+    "description": "How the Routing Workflow pattern works in Spring AI: a structured LLM classifier, specialized route prompts, failure modes and testing.",
+    "url": "https://dev.to/said_olano/routing-workflow-with-spring-ai-classify-first-then-answer-4m4b",
+    "date": "2026-11-22",
+    "first_seen": "2026-11-22",
+    "new": true
+  },
+  {
+    "title": "Parallelization Workflow with Spring AI: Fan-Out LLM Calls in Java",
+    "description": "How the Parallelization Workflow pattern works in Spring AI: sectioning vs voting, ordered results, failures, rate limits and testing.",
+    "url": "https://dev.to/said_olano/parallelization-workflow-with-spring-ai-fan-out-llm-calls-in-java-43fg",
+    "date": "2026-11-22",
+    "first_seen": "2026-11-22",
+    "new": true
+  },
+  {
     "title": "Five Spring AI Agentic Patterns Every Java Developer Should Know",
     "description": "Router, RAG, Chain of Thought, Supervisor, and Guardrails & Validation: five agentic patterns for building reliable AI systems with Spring AI.",
     "url": "https://dev.to/said_olano/five-spring-ai-agentic-patterns-every-java-developer-should-know-30ak",
@@ -13,7 +45,7 @@
     "url": "https://dev.to/said_olano/dfm-tolerance-analysis-doe-and-form-fit-function-from-failure-root-cause-to-customer-report-5no",
     "date": "2026-11-19",
     "first_seen": "2026-11-19",
-    "new": true
+    "new": false
   },
   {
     "title": "Why Daily Logistics KPIs Matter: Productivity, OTIF, Inventory Accuracy, and Operational Issues (with Java)",
@@ -21,7 +53,7 @@
     "url": "https://dev.to/said_olano/why-daily-logistics-kpis-matter-productivity-otif-inventory-accuracy-and-operational-issues-1c4n",
     "date": "2026-11-19",
     "first_seen": "2026-11-19",
-    "new": true
+    "new": false
   },
   {
     "title": "New Product Introduction (NPI): From Prototype to Volume Production, with Java Stage Gates",
@@ -29,7 +61,7 @@
     "url": "https://dev.to/said_olano/new-product-introduction-npi-from-prototype-to-volume-production-with-java-stage-gates-fpe",
     "date": "2026-11-19",
     "first_seen": "2026-11-19",
-    "new": true
+    "new": false
   },
   {
     "title": "Kubernetes Metrics Server: How kubectl top and Autoscaling Get Their Data (with Java)",
@@ -37,7 +69,7 @@
     "url": "https://dev.to/said_olano/kubernetes-metrics-server-how-kubectl-top-and-autoscaling-get-their-data-with-java-5e9p",
     "date": "2026-11-19",
     "first_seen": "2026-11-19",
-    "new": true
+    "new": false
   },
   {
     "title": "From a Static Site to Multi-Region DR: 12 AWS Reference Architectures, Explained",
@@ -765,38 +797,6 @@
     "url": "https://dev.to/said_olano/integracion-de-microservicios-python-spring-boot-guia-completa-2026-2j5p",
     "date": "2026-09-08",
     "first_seen": "2026-09-08",
-    "new": false
-  },
-  {
-    "title": "Crear un Microservicio en Python que Llama a Otro en Spring Boot",
-    "description": "Guía completa: integra Python con Spring Boot en arquitectura de microservicios. Ejemplos de código, patrones REST y consideraciones de producción.",
-    "url": "https://dev.to/said_olano/crear-un-microservicio-en-python-que-llama-a-otro-en-spring-boot-54oa",
-    "date": "2026-09-08",
-    "first_seen": "2026-09-08",
-    "new": false
-  },
-  {
-    "title": "Retrieval-Augmented Generation (RAG): The Complete Guide to Smarter AI Responses",
-    "description": "Complete guide to RAG: how it works, key components, benefits, use cases, and practical implementation strategies for enterprise AI systems",
-    "url": "https://dev.to/said_olano/retrieval-augmented-generation-rag-the-complete-guide-to-smarter-ai-responses-2d10",
-    "date": "2026-09-08",
-    "first_seen": "2026-09-08",
-    "new": false
-  },
-  {
-    "title": "Claude AI: Building with the Latest Models (2026-09-07 23:50)",
-    "description": "Claude AI: Building with the Latest Models   Anthropic's Claude family of models has become...",
-    "url": "https://dev.to/said_olano/claude-ai-building-with-the-latest-models-2026-09-07-2350-409n",
-    "date": "2026-09-07",
-    "first_seen": "2026-09-07",
-    "new": false
-  },
-  {
-    "title": "Reverse Proxy: The Architecture Pattern Every Backend Engineer Should Master",
-    "description": "Complete guide to reverse proxies: load balancing, SSL termination, caching, and production implementations with Nginx, HAProxy, Envoy, and Java",
-    "url": "https://dev.to/said_olano/reverse-proxy-the-architecture-pattern-every-backend-engineer-should-master-44j0",
-    "date": "2026-09-07",
-    "first_seen": "2026-09-07",
     "new": false
   }
 ]

@@ -17,7 +17,7 @@
     "language": "Java",
     "updated": "2026-11-20",
     "first_seen": "2026-11-19",
-    "new": true
+    "new": false
   },
   {
     "name": "aws-architecture-diagrams",
@@ -158,25 +158,5 @@
     "updated": "2026-10-22",
     "first_seen": "2026-10-21",
     "new": false
-  },
-  {
-    "name": "routing-workflow",
-    "description": "Routing workflow pattern with Spring AI: classify an input, then answer with a specialized prompt",
-    "url": "https://github.com/josesaid/routing-workflow",
-    "page": "https://josesaid.github.io/routing-workflow/",
-    "language": "Java",
-    "updated": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "new": true
-  },
-  {
-    "name": "orchestrator-workers",
-    "description": "Orchestrator-workers workflow pattern with Spring AI: a model plans the subtasks, workers execute them, and the results are assembled",
-    "url": "https://github.com/josesaid/orchestrator-workers",
-    "page": "https://josesaid.github.io/orchestrator-workers/",
-    "language": "Java",
-    "updated": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "new": true
   }
 ]
