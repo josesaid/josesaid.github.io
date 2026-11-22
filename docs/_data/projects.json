@@ -165,6 +165,8 @@
     "url": "https://github.com/josesaid/routing-workflow",
     "page": "https://josesaid.github.io/routing-workflow/",
     "language": "Java",
-    "updated": "2026-11-21"
+    "updated": "2026-11-21",
+    "first_seen": "2026-11-21",
+    "new": true
   }
 ]
