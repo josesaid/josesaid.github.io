@@ -13,6 +13,8 @@ USER = "josesaid"
 TOPIC = "portfolio"
 OUT = "docs/_data/projects.json"
 NEW_DAYS = 3
+# Repos that keep the NEW badge regardless of first_seen (manual override).
+FORCE_NEW = {"chain-workflow"}
 LOCAL_TZ = timezone(timedelta(hours=-6))  # America/Mexico_City (no DST)
 
 
@@ -79,7 +81,7 @@ def main():
             "language": r.get("language") or "",
             "updated": (r.get("pushed_at") or "")[:10],
             "first_seen": first_seen,
-            "new": age < NEW_DAYS,
+            "new": age < NEW_DAYS or r["name"] in FORCE_NEW,
         })
     items.sort(key=lambda x: x["updated"], reverse=True)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
