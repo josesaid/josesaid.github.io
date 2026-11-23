@@ -1,5 +1,29 @@
 [
   {
+    "title": "Tool-Based Skill Integration: Giving Your Java Agent an activate_skill Tool",
+    "description": "How the tool-based approach to Agent Skills works, and a Java and Spring AI implementation with progressive disclosure, a registry and secure activation.",
+    "url": "https://dev.to/said_olano/tool-based-skill-integration-giving-your-java-agent-an-activateskill-tool-ll7",
+    "date": "2026-11-23",
+    "first_seen": "2026-11-23",
+    "new": true
+  },
+  {
+    "title": "Spring AI's Model Layer: One API, Any Provider, Zero Rewrites",
+    "description": "Use Spring AI's model layer to write Java AI features once, then switch between OpenAI, Anthropic, Ollama and more by changing configuration only.",
+    "url": "https://dev.to/said_olano/spring-ais-model-layer-one-api-any-provider-zero-rewrites-4oeb",
+    "date": "2026-11-23",
+    "first_seen": "2026-11-23",
+    "new": true
+  },
+  {
+    "title": "Evaluator-Optimizer with Spring AI: One Model Writes, Another Critiques",
+    "description": "How the evaluator-optimizer agentic pattern works in Spring AI: one model generates, another evaluates with explicit criteria, and feedback drives refinement, with the loop guardrails the sample is missing.",
+    "url": "https://dev.to/said_olano/evaluator-optimizer-with-spring-ai-one-model-writes-another-critiques-1pj1",
+    "date": "2026-11-23",
+    "first_seen": "2026-11-23",
+    "new": true
+  },
+  {
     "title": "Prompt Chaining with Spring AI: Four Small Steps Beat One Big Prompt",
     "description": "How prompt chaining works in Spring AI: a fixed sequence of small LLM steps, the contract between them, and where the sample needs gates and failure handling.",
     "url": "https://dev.to/said_olano/prompt-chaining-with-spring-ai-four-small-steps-beat-one-big-prompt-37gg",
@@ -21,7 +45,7 @@
     "url": "https://dev.to/said_olano/routing-workflow-with-spring-ai-classify-first-then-answer-4m4b",
     "date": "2026-11-22",
     "first_seen": "2026-11-22",
-    "new": true
+    "new": false
   },
   {
     "title": "Parallelization Workflow with Spring AI: Fan-Out LLM Calls in Java",
@@ -29,7 +53,7 @@
     "url": "https://dev.to/said_olano/parallelization-workflow-with-spring-ai-fan-out-llm-calls-in-java-43fg",
     "date": "2026-11-22",
     "first_seen": "2026-11-22",
-    "new": true
+    "new": false
   },
   {
     "title": "Five Spring AI Agentic Patterns Every Java Developer Should Know",
@@ -37,7 +61,7 @@
     "url": "https://dev.to/said_olano/five-spring-ai-agentic-patterns-every-java-developer-should-know-30ak",
     "date": "2026-11-20",
     "first_seen": "2026-11-19",
-    "new": true
+    "new": false
   },
   {
     "title": "DFM, Tolerance Analysis, DOE, and Form-Fit-Function: From Failure Root Cause to Customer Report (with Java)",
@@ -773,30 +797,6 @@
     "url": "https://dev.to/said_olano/spring-ai-openai-complete-integration-guide-for-java-2026-12d6",
     "date": "2026-09-10",
     "first_seen": "2026-09-10",
-    "new": false
-  },
-  {
-    "title": "Deploying Microservices Architectures with AWS and Java: A Complete Guide",
-    "description": "Learn how to design, build, and deploy scalable microservices on AWS using Java and Spring Boot with containerization, load balancing, and monitoring.",
-    "url": "https://dev.to/said_olano/deploying-microservices-architectures-with-aws-and-java-a-complete-guide-3dae",
-    "date": "2026-09-09",
-    "first_seen": "2026-09-09",
-    "new": false
-  },
-  {
-    "title": "Building Python-to-Spring Boot Microservices: A Complete Integration Guide",
-    "description": "Complete guide: Integrate Python with Spring Boot in microservices architecture. Real-world code examples, REST patterns, and production considerations.",
-    "url": "https://dev.to/said_olano/building-python-to-spring-boot-microservices-a-complete-integration-guide-2422",
-    "date": "2026-09-08",
-    "first_seen": "2026-09-08",
-    "new": false
-  },
-  {
-    "title": "Integración de Microservicios: Python + Spring Boot (Guía Completa 2026)",
-    "description": "Guía completa: integra Python con Spring Boot en arquitectura de microservicios. Ejemplos de código, patrones REST y consideraciones de producción.",
-    "url": "https://dev.to/said_olano/integracion-de-microservicios-python-spring-boot-guia-completa-2026-2j5p",
-    "date": "2026-09-08",
-    "first_seen": "2026-09-08",
     "new": false
   }
 ]
