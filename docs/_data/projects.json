@@ -1,5 +1,25 @@
 [
   {
+    "name": "orchestrator-workers",
+    "description": "Orchestrator-workers workflow pattern with Spring AI: a model plans the subtasks, workers execute them",
+    "url": "https://github.com/josesaid/orchestrator-workers",
+    "page": "https://josesaid.github.io/orchestrator-workers/",
+    "language": "Java",
+    "updated": "2026-11-23",
+    "first_seen": "2026-11-23",
+    "new": true
+  },
+  {
+    "name": "routing-workflow",
+    "description": "Routing workflow pattern with Spring AI: classify an input, then answer with a specialized prompt",
+    "url": "https://github.com/josesaid/routing-workflow",
+    "page": "https://josesaid.github.io/routing-workflow/",
+    "language": "Java",
+    "updated": "2026-11-23",
+    "first_seen": "2026-11-23",
+    "new": true
+  },
+  {
     "name": "parallelization-workflow",
     "description": "Parallelization workflow pattern with Spring AI 2.1 and Anthropic Claude: four stakeholder analyses run as concurrent LLM calls and return in input order.",
     "url": "https://github.com/josesaid/parallelization-workflow",
