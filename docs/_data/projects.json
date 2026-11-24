@@ -1,5 +1,15 @@
 [
   {
+    "name": "outbox-demo",
+    "description": "Transactional outbox + idempotent consumer patterns in plain Java, with simulated Kafka and database.",
+    "url": "https://github.com/josesaid/outbox-demo",
+    "page": "https://josesaid.github.io/outbox-demo/",
+    "language": "Java",
+    "updated": "2026-11-24",
+    "first_seen": "2026-11-24",
+    "new": true
+  },
+  {
     "name": "evaluator-optimizer",
     "description": "Evaluator-optimizer workflow pattern with Spring AI: one model generates, another evaluates, feedback drives refinement",
     "url": "https://github.com/josesaid/evaluator-optimizer",
@@ -37,7 +47,7 @@
     "language": "Java",
     "updated": "2026-11-22",
     "first_seen": "2026-11-21",
-    "new": true
+    "new": false
   },
   {
     "name": "chain-workflow",
