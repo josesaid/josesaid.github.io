@@ -10,6 +10,16 @@
     "new": true
   },
   {
+    "name": "EMPRESA_JOSESAID",
+    "description": "Plataforma EMPRESA_JOSESAID: microservicios de área",
+    "url": "https://github.com/josesaid/EMPRESA_JOSESAID",
+    "page": "https://josesaid.github.io/EMPRESA_JOSESAID/",
+    "language": "HTML",
+    "updated": "2026-11-24",
+    "first_seen": "2026-10-30",
+    "new": false
+  },
+  {
     "name": "evaluator-optimizer",
     "description": "Evaluator-optimizer workflow pattern with Spring AI: one model generates, another evaluates, feedback drives refinement",
     "url": "https://github.com/josesaid/evaluator-optimizer",
@@ -77,16 +87,6 @@
     "language": "Java",
     "updated": "2026-11-15",
     "first_seen": "2026-11-14",
-    "new": false
-  },
-  {
-    "name": "EMPRESA_JOSESAID",
-    "description": "Plataforma EMPRESA_JOSESAID: microservicios de área",
-    "url": "https://github.com/josesaid/EMPRESA_JOSESAID",
-    "page": "https://josesaid.github.io/EMPRESA_JOSESAID/",
-    "language": "HTML",
-    "updated": "2026-11-11",
-    "first_seen": "2026-10-30",
     "new": false
   },
   {

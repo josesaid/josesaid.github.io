@@ -1,13 +1,5 @@
 [
   {
-    "title": "At-Least-Once Delivery Without Double Charges: The Outbox Pattern in Plain Java",
-    "description": "Save the event with the order, publish it at least once, and make the consumer skip duplicates. Five failure scenarios, four payments, zero double charges.",
-    "url": "https://dev.to/said_olano/at-least-once-delivery-without-double-charges-the-outbox-pattern-in-plain-java-3pp8",
-    "date": "2026-11-24",
-    "first_seen": "2026-11-24",
-    "new": true
-  },
-  {
     "title": "Tool-Based Skill Integration: Giving Your Java Agent an activate_skill Tool",
     "description": "How the tool-based approach to Agent Skills works, and a Java and Spring AI implementation with progressive disclosure, a registry and secure activation.",
     "url": "https://dev.to/said_olano/tool-based-skill-integration-giving-your-java-agent-an-activateskill-tool-ll7",
