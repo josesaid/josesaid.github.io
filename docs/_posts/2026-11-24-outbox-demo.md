@@ -2,7 +2,7 @@
 layout: post
 title: "outbox-demo: transactional outbox and idempotent consumer in plain Java"
 description: "A dependency-free Java demo where the order and its event are saved in one transaction, a relay publishes to a simulated Kafka, and the consumer skips duplicates."
-tags: [Java, Architecture, Messaging, Event-driven]
+tags: [Java, Architecture, Messaging, Kafka, Event-driven]
 new: true
 links:
   - url: "https://github.com/josesaid/outbox-demo"
