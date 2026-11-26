@@ -27,7 +27,7 @@
     "language": "Java",
     "updated": "2026-11-23",
     "first_seen": "2026-11-23",
-    "new": true
+    "new": false
   },
   {
     "name": "orchestrator-workers",
@@ -37,7 +37,7 @@
     "language": "Java",
     "updated": "2026-11-23",
     "first_seen": "2026-11-23",
-    "new": true
+    "new": false
   },
   {
     "name": "routing-workflow",
@@ -47,7 +47,7 @@
     "language": "Java",
     "updated": "2026-11-23",
     "first_seen": "2026-11-23",
-    "new": true
+    "new": false
   },
   {
     "name": "parallelization-workflow",

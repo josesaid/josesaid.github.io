@@ -1,5 +1,29 @@
 [
   {
+    "title": "🔍 SAST vs DAST: Catching Security Flaws Before and After Deployment",
+    "description": "SAST and DAST find different classes of vulnerabilities. Learn how each works, when to use it, and how to run both in a Java CI/CD pipeline.",
+    "url": "https://dev.to/said_olano/sast-vs-dast-catching-security-flaws-before-and-after-deployment-2h8o",
+    "date": "2026-11-26",
+    "first_seen": "2026-11-26",
+    "new": true
+  },
+  {
+    "title": "Load Testing Java Applications with Apache JMeter: A Practical Guide",
+    "description": "A practical workflow for load testing Java and Spring Boot services with Apache JMeter: headless runs, correlation, custom samplers, Java DSL and CI integration.",
+    "url": "https://dev.to/said_olano/load-testing-java-applications-with-apache-jmeter-a-practical-guide-54il",
+    "date": "2026-11-25",
+    "first_seen": "2026-11-26",
+    "new": true
+  },
+  {
+    "title": "At-Least-Once Delivery Without Double Charges: The Outbox Pattern in Plain Java",
+    "description": "Every event-driven system eventually meets the same bug. An order is saved, but the OrderCreated...",
+    "url": "https://dev.to/said_olano/at-least-once-delivery-without-double-charges-the-outbox-pattern-in-plain-java-3pp8",
+    "date": "2026-11-24",
+    "first_seen": "2026-11-26",
+    "new": true
+  },
+  {
     "title": "Tool-Based Skill Integration: Giving Your Java Agent an activate_skill Tool",
     "description": "How the tool-based approach to Agent Skills works, and a Java and Spring AI implementation with progressive disclosure, a registry and secure activation.",
     "url": "https://dev.to/said_olano/tool-based-skill-integration-giving-your-java-agent-an-activateskill-tool-ll7",
@@ -21,7 +45,7 @@
     "url": "https://dev.to/said_olano/evaluator-optimizer-with-spring-ai-one-model-writes-another-critiques-1pj1",
     "date": "2026-11-23",
     "first_seen": "2026-11-23",
-    "new": true
+    "new": false
   },
   {
     "title": "Prompt Chaining with Spring AI: Four Small Steps Beat One Big Prompt",
@@ -29,7 +53,7 @@
     "url": "https://dev.to/said_olano/prompt-chaining-with-spring-ai-four-small-steps-beat-one-big-prompt-37gg",
     "date": "2026-11-22",
     "first_seen": "2026-11-22",
-    "new": true
+    "new": false
   },
   {
     "title": "Orchestrator-Workers with Spring AI: Let the Model Decide the Subtasks",
@@ -37,7 +61,7 @@
     "url": "https://dev.to/said_olano/orchestrator-workers-with-spring-ai-let-the-model-decide-the-subtasks-1618",
     "date": "2026-11-22",
     "first_seen": "2026-11-22",
-    "new": true
+    "new": false
   },
   {
     "title": "Routing Workflow with Spring AI: Classify First, Then Answer",
@@ -773,30 +797,6 @@
     "url": "https://dev.to/said_olano/software-engineering-best-practices-as-a-team-lead-and-communicator-13ih",
     "date": "2026-09-14",
     "first_seen": "2026-09-14",
-    "new": false
-  },
-  {
-    "title": "Java & Elasticsearch: Search Engines",
-    "description": "Java &amp; Elasticsearch: Search Engines   Elasticsearch has become the go-to search engine...",
-    "url": "https://dev.to/said_olano/java-elasticsearch-search-engines-3okm",
-    "date": "2026-09-11",
-    "first_seen": "2026-09-11",
-    "new": false
-  },
-  {
-    "title": "Mastering Spring WebFlux: Building Reactive Web Applications in Java",
-    "description": "Master Spring WebFlux: Building production-grade reactive web applications in Java with non-blocking I/O, backpressure handling, and cloud-native patterns.",
-    "url": "https://dev.to/said_olano/mastering-spring-webflux-building-reactive-web-applications-in-java-37p",
-    "date": "2026-09-10",
-    "first_seen": "2026-09-10",
-    "new": false
-  },
-  {
-    "title": "Spring AI + OpenAI: Complete Integration Guide for Java (2026)",
-    "description": "Learn how to integrate OpenAI with Spring Boot using Spring AI. Build chatbots, REST APIs and intelligent applications with Java, from configuration to production.",
-    "url": "https://dev.to/said_olano/spring-ai-openai-complete-integration-guide-for-java-2026-12d6",
-    "date": "2026-09-10",
-    "first_seen": "2026-09-10",
     "new": false
   }
 ]
