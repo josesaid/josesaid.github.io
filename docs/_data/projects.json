@@ -1,5 +1,15 @@
 [
   {
+    "name": "idempotency-demo",
+    "description": "Spring Boot payments endpoint that charges at most once per Idempotency-Key: retries, reused keys and concurrent requests, with bilingual sequence diagrams.",
+    "url": "https://github.com/josesaid/idempotency-demo",
+    "page": "https://josesaid.github.io/idempotency-demo/",
+    "language": "Java",
+    "updated": "2026-11-26",
+    "first_seen": "2026-11-26",
+    "new": true
+  },
+  {
     "name": "outbox-demo",
     "description": "Transactional outbox + idempotent consumer patterns in plain Java, with simulated Kafka and database.",
     "url": "https://github.com/josesaid/outbox-demo",
