@@ -1,13 +1,5 @@
 [
   {
-    "title": "Your First LangChain4j Chat: Connecting Java to Anthropic Claude",
-    "description": "Send a prompt to Claude from plain Java with LangChain4j and the Anthropic model: project setup, the ChatModel call and how to run it.",
-    "url": "https://dev.to/said_olano/your-first-langchain4j-chat-connecting-java-to-anthropic-claude-2gke",
-    "date": "2026-11-27",
-    "first_seen": "2026-11-27",
-    "new": true
-  },
-  {
     "title": "Charge Once, Retry Forever: Idempotency Keys in Spring Boot",
     "description": "A Spring Boot payments endpoint that charges at most once per Idempotency-Key: a UNIQUE row reserved before the charge, a request hash, stored responses, and 8 concurrent requests that produce exactly one charge.",
     "url": "https://dev.to/said_olano/charge-once-retry-forever-idempotency-keys-in-spring-boot-p01",
