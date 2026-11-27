@@ -160,7 +160,8 @@ title: Home
       <div class="grid" id="grid">
         {% for p in site.data.projects %}
         {% assign tags = site.data.project_tags[p.name] %}{% if tags == nil %}{% assign tags = "" | split: "," %}{% endif %}
-        <article class="card" data-tags="|{{ tags | join: '|' }}|" data-search="{{ p.name }} {{ p.description }} {{ tags | join: ' ' }}">
+        {% assign anchor_id = "" %}{% for a in site.data.anchors %}{% if a[1] == p.name %}{% assign anchor_id = a[0] %}{% endif %}{% endfor %}
+        <article class="card"{% if anchor_id != "" %} id="{{ anchor_id }}"{% endif %} data-tags="|{{ tags | join: '|' }}|" data-search="{{ p.name }} {{ p.description }} {{ tags | join: ' ' }}">
           <h3>{{ p.name }}{% if p.new %}<span class="new">NEW</span>{% endif %}</h3>
           {% if tags.size > 0 %}<div class="tags">{% for t in tags %}<span>{{ t }}</span>{% endfor %}</div>{% endif %}
           {% if p.description != "" %}<p>{{ p.description }}</p>{% endif %}

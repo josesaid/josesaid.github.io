@@ -1,5 +1,14 @@
 [
   {
+    "name": "01-chatmodel-anthropic",
+    "description": "ChatModel example: send a prompt to Claude with LangChain4j",
+    "url": "https://github.com/josesaid/01-chatmodel-anthropic",
+    "page": "https://josesaid.github.io/01-chatmodel-anthropic/",
+    "language": "Java",
+    "updated": "2026-11-27",
+    "new": true
+  },
+  {
     "name": "idempotency-demo",
     "description": "Spring Boot payments endpoint that charges at most once per Idempotency-Key: retries, reused keys and concurrent requests, with bilingual sequence diagrams.",
     "url": "https://github.com/josesaid/idempotency-demo",
