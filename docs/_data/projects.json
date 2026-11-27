@@ -6,6 +6,7 @@
     "page": "https://josesaid.github.io/01-chatmodel-anthropic/",
     "language": "Java",
     "updated": "2026-11-27",
+    "first_seen": "2026-11-27",
     "new": true
   },
   {
@@ -26,7 +27,7 @@
     "language": "Java",
     "updated": "2026-11-24",
     "first_seen": "2026-11-24",
-    "new": true
+    "new": false
   },
   {
     "name": "EMPRESA_JOSESAID",
