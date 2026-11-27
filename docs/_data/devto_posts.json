@@ -1,5 +1,13 @@
 [
   {
+    "title": "Charge Once, Retry Forever: Idempotency Keys in Spring Boot",
+    "description": "A Spring Boot payments endpoint that charges at most once per Idempotency-Key: a UNIQUE row reserved before the charge, a request hash, stored responses, and 8 concurrent requests that produce exactly one charge.",
+    "url": "https://dev.to/said_olano/charge-once-retry-forever-idempotency-keys-in-spring-boot-p01",
+    "date": "2026-11-27",
+    "first_seen": "2026-11-26",
+    "new": true
+  },
+  {
     "title": "🔍 SAST vs DAST: Catching Security Flaws Before and After Deployment",
     "description": "SAST and DAST find different classes of vulnerabilities. Learn how each works, when to use it, and how to run both in a Java CI/CD pipeline.",
     "url": "https://dev.to/said_olano/sast-vs-dast-catching-security-flaws-before-and-after-deployment-2h8o",
@@ -37,7 +45,7 @@
     "url": "https://dev.to/said_olano/spring-ais-model-layer-one-api-any-provider-zero-rewrites-4oeb",
     "date": "2026-11-23",
     "first_seen": "2026-11-23",
-    "new": true
+    "new": false
   },
   {
     "title": "Evaluator-Optimizer with Spring AI: One Model Writes, Another Critiques",
@@ -787,14 +795,6 @@
     "title": "Invest in People as a Software Engineering Lead: Building High-Performing Teams Through Human-Centric Leadership",
     "description": "The most valuable asset in software engineering isn't your codebase—it's your people. Learn how to invest strategically in your team's growth, development, and retention.",
     "url": "https://dev.to/said_olano/invest-in-people-as-a-software-engineering-lead-building-high-performing-teams-through-894",
-    "date": "2026-09-14",
-    "first_seen": "2026-09-14",
-    "new": false
-  },
-  {
-    "title": "Software Engineering Best Practices as a Team Lead and Communicator",
-    "description": "Master the art of leading technical teams with effective communication, mentorship, and strategic engineering practices that drive innovation and team growth.",
-    "url": "https://dev.to/said_olano/software-engineering-best-practices-as-a-team-lead-and-communicator-13ih",
     "date": "2026-09-14",
     "first_seen": "2026-09-14",
     "new": false
