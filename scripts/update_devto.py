@@ -19,7 +19,9 @@ def today():
 
 
 def fetch_articles():
-    url = f"https://dev.to/api/articles?username={USER}&per_page=100"
+    # page=1 is explicit on purpose: dev.to keeps a stale edge-cached copy of the plain
+    # per_page=100 URL for hours, which hid newly published articles.
+    url = f"https://dev.to/api/articles?username={USER}&per_page=100&page=1"
     req = urllib.request.Request(url, headers={"User-Agent": "portfolio-index-updater"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.load(resp)
