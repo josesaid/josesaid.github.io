@@ -13,11 +13,15 @@ links:
     label: "Flow diagrams (English)"
   - url: "https://josesaid.github.io/idempotency-demo/diagrams/spanish/flujo-espa%C3%B1ol.html"
     label: "Diagramas (español)"
+  - url: "https://dev.to/said_olano/charge-once-retry-forever-idempotency-keys-in-spring-boot-p01"
+    label: "Article on dev.to"
 ---
 
 idempotency-demo shows how a `POST /payments` endpoint can charge at most once per `Idempotency-Key`. `PaymentFacade` hashes the request body, looks the key up and, for a new key, has `IdempotencyReserver` commit a `PROCESSING` row in its own transaction (`REQUIRES_NEW`) before the simulated provider is called. The response is stored when the charge finishes, so retries get it back with `200 OK` and never reach the provider.
 
 A reused key with a different body gets `422`. When several requests race with the same new key, the database `UNIQUE` constraint lets only one INSERT win: that request charges and answers `201`, the others answer `409` while it is still processing. If the provider throws, the reservation is released so the key can be retried. The tests fire 8 concurrent requests and check that exactly one charge happens.
+
+The full walkthrough is in the dev.to article [Charge Once, Retry Forever: Idempotency Keys in Spring Boot](https://dev.to/said_olano/charge-once-retry-forever-idempotency-keys-in-spring-boot-p01).
 
 The flow diagrams ([English](https://josesaid.github.io/idempotency-demo/diagrams/english/workflow-english.html), [español](https://josesaid.github.io/idempotency-demo/diagrams/spanish/flujo-espa%C3%B1ol.html)) show the path of one request, the decision flow, the row states and the five scenarios. Each scenario has its own sequence diagram:
 
