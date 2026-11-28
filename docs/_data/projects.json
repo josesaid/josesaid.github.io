@@ -1,5 +1,15 @@
 [
   {
+    "name": "02-ai-services",
+    "description": "Declare a Java interface, and LangChain4J generates the implementation that calls Claude.",
+    "url": "https://github.com/josesaid/02-ai-services",
+    "page": "https://josesaid.github.io/02-ai-services/",
+    "language": "Java",
+    "updated": "2026-11-28",
+    "first_seen": "2026-11-27",
+    "new": true
+  },
+  {
     "name": "01-chatmodel-anthropic",
     "description": "ChatModel example: send a prompt to Claude with LangChain4j",
     "url": "https://github.com/josesaid/01-chatmodel-anthropic",
